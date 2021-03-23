@@ -1,0 +1,169 @@
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #354b9f;
+  --primary-light: #4a67da;
+  --secondary: #673bb7;
+  --success: #10d876;
+  --info: #2754e6;
+  --warning: #fe9431;
+  --danger: #e50202;
+  --light: #faf8f2;
+  --dark: #262f5a;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1440;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+}
+.dlab-social-icon a {
+  color: var(--primary);
+}
+.service-icon {
+  margin: 10px auto;
+}
+.archia-counter i {
+  color: var(--primary);
+}
+.dlab-bnr-inr:before {
+  background: var(--primary);
+}
+.top-bar .dlab-topbar-center ul i,
+.top-bar .dlab-topbar-left ul i,
+.top-bar .dlab-topbar-right ul i {
+  color: var(--primary);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: var(--primary-light);
+  border-color: var(--primary-light);
+}
+.exhibition-carousel .owl-dot.active {
+  background: var(--primary-light);
+}
+.icon-lg {
+  width: 50px;
+}
+.icon-lg img {
+  vertical-align: middle;
+  max-width: 100%;
+  width: auto;
+  height: 50px;
+}
+/* ----------------------------- Gallery Display ---------------------------- */
+.index-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+@media all and (max-width: 1000px) {
+  .index-gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media all and (max-width: 768px) {
+  .index-gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.index-gallery-item {
+  max-height: 200px;
+  width: 100%;
+  /* overflow: hidden; */
+}
+.index-gallery-item img {
+  object-fit: cover;
+}
+.index-gallery-item .dlab-media img,
+.dlab-post-media img {
+  width: 100%;
+  height: 200px;
+}
+/* --------------------------------- Footer --------------------------------- */
+
+footer .footer-top {
+  background: var(--primary);
+  padding: 70px 0 30px;
+}
+footer .footer-bottom {
+  background-color: var(--primary);
+  padding: 20px 0;
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+.wechat-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.wechat-wrap img {
+  width: 120px;
+}
+.wechat-wrap img:first-child {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Contact Page                                */
+/* -------------------------------------------------------------------------- */
+.breadcrumb-row ul li a {
+  color: var(--primary);
+}
+.contact-box .title-box {
+  background: var(--primary);
+}
+
+.contact-question li i {
+  background: var(--primary);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Commercial Page                             */
+/* -------------------------------------------------------------------------- */
+.commercial-row-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.commercial-row-1 h3 {
+  text-align: center;
+}
+.business-icons-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.business-icon-cell {
+  background-color: var(--primary-light);
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+.business-icon-cell h3 {
+  text-align: center;
+  color: #ffffff;
+}
+.business-icon-cell p {
+  text-align: center;
+  color: #ffffff;
+}
