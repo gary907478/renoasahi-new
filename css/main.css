@@ -145,25 +145,109 @@ footer .footer-bottom {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 80px;
 }
-.commercial-row-1 h3 {
+.commercial-row-1 h3:first-child {
   text-align: center;
+  font-size: 32px;
+}
+.commercial-row-1 p:first-child {
+  text-align: center;
+  font-size: 32px;
 }
 .business-icons-wrap {
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 40px;
+}
+@media all and (max-width:700px){
+  .business-icons-wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .business-icon-cell {
+  display: flex;
+  flex-direction: column;
   background-color: var(--primary-light);
   border-radius: 20px;
-  padding: 10px 25px;
+  padding: 30px 25px;
 }
 .business-icon-cell h3 {
   text-align: center;
   color: #ffffff;
+  margin: auto auto 15px;
 }
 .business-icon-cell p {
   text-align: center;
   color: #ffffff;
+}
+.business-icon-cell i{
+ font-size: 60px;
+ color:#fff;
+ margin:15px auto 30px auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 SECURE PAGE                                */
+/* -------------------------------------------------------------------------- */
+.question-title{
+  font-size: 35px;
+  text-align: center;
+  margin: 40px auto;
+}
+.common-question-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 20px;
+  grid-template-areas:
+    "question1 question-img question3"
+    "question2 question-img question4";
+}
+.question1 h3,.question2 h3,.question3 h3,.question4 h3 {
+  color:var(--primary);
+  font-size: 29px;
+}
+.question1,.question2{
+  padding-right: 40px;
+}
+.question3,.question4{
+  padding-left: 40px;
+  text-align: right;
+}
+.question1 { grid-area: question1; }
+.question2 { grid-area: question2; }
+.question-img { grid-area: question-img; }
+.question3 { grid-area: question3; }
+.question4 { grid-area: question4; }
+
+@media all and (max-width:700px){
+  .common-question-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px 20px;
+    justify-content: center;
+    grid-template-areas:
+      "question1"
+      "question2"
+      "question-img"
+      "question3"
+      "question4"
+      ;
+  }
+  .question-img{
+    width: 70%;
+    justify-self: center;
+    margin: 20px auto;
+  }
+  .question1,.question2{
+    padding-right: 0px;
+    text-align: center;
+
+  }
+  .question3,.question4{
+    padding-left: 0px;
+    text-align: center;
+  }
 }

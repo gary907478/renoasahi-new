@@ -30,25 +30,25 @@
     <div class="page-wraper">
       <!-- header -->
       <header class="site-header header-transparent">
-          <div class="top-bar">
-            <div class="container-fluid">
-              <div class="row d-flex justify-content-between align-items-center">
-                <div class="dlab-topbar-left">
-                  <ul>
-                    <li><i class="la la-phone-volume"></i> 中: 647-996-5766</li>
-                    <li><i class="la la-phone-volume"></i> EN: 647-988-3576</li>
-                  </ul>
-                </div>
-                <div class="dlab-topbar-right">
-                  <ul>
-                    <li>
-                      <i class="las la-envelope-open"></i> newasahiinc@gmail.com
-                    </li>
-                  </ul>
-                </div>
+        <div class="top-bar">
+          <div class="container-fluid">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="dlab-topbar-left">
+                <ul>
+                  <li><i class="la la-phone-volume"></i> 中: 647-996-5766</li>
+                  <li><i class="la la-phone-volume"></i> EN: 647-988-3576</li>
+                </ul>
+              </div>
+              <div class="dlab-topbar-right">
+                <ul>
+                  <li>
+                    <i class="las la-envelope-open"></i> newasahiinc@gmail.com
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
+        </div>
         <!-- main header -->
         <div class="sticky-header main-bar-wraper navbar-expand-lg">
           <div class="main-bar clearfix">
@@ -181,21 +181,42 @@
                     <li data-filter="" class="btn active">
                       <input type="radio" /><a href="#"><span>全部</span></a>
                     </li>
-                    <li data-filter="abstract" class="btn">
+                    <li data-filter="doorwindow" class="btn">
                       <input type="radio" /><a href="#"
-                        ><span>Abstract</span></a
+                        ><span>门窗窗帘</span></a
                       >
                     </li>
-                    <li data-filter="food" class="btn">
-                      <input type="radio" /><a href="#"><span>Food</span></a>
+                    <li data-filter="stair" class="btn">
+                      <input type="radio" /><a href="#"><span>楼梯</span></a>
                     </li>
-                    <li data-filter="mockup" class="btn">
-                      <input type="radio" /><a href="#"><span>Mockup</span></a>
+                    <li data-filter="basement" class="btn">
+                      <input type="radio" /><a href="#"><span>地下室</span></a>
+                    </li>
+                    <li data-filter="technology" class="btn">
+                      <input type="radio" /><a href="#"><span>卫浴</span></a>
                     </li>
                     <li data-filter="technology" class="btn">
                       <input type="radio" /><a href="#"
-                        ><span>Technology</span></a
+                        ><span>室内翻新</span></a
                       >
+                    </li>
+                    <li data-filter="technology" class="btn">
+                      <input type="radio" /><a href="#"
+                        ><span>新房重建</span></a
+                      >
+                    </li>
+                    <li data-filter="technology" class="btn">
+                      <input type="radio" /><a href="#"
+                        ><span>园艺铺砖</span></a
+                      >
+                    </li>
+                    <li data-filter="technology" class="btn">
+                      <input type="radio" /><a href="#"
+                        ><span>商业装修</span></a
+                      >
+                    </li>
+                    <li data-filter="technology" class="btn">
+                      <input type="radio" /><a href="#"><span>厨房</span></a>
                     </li>
                   </ul>
                 </div>
@@ -208,33 +229,6 @@
               class="gallery mfp-gallery text-center portfolio-bx p-l0"
             >
               <li
-                data-category="abstract"
-                class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 abstract wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.2s"
-              >
-                <div
-                  class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
-                >
-                  <img src="imgs/index/about-slider1.jpeg" alt="" />
-                  <div class="overlay-bx">
-                    <div class="portinner">
-                      <span>July 3, 2016 in Travelling</span>
-                      <h3 class="port-title">
-                        <a href="project-detail-1.html"
-                          >Design is where science</a
-                        >
-                      </h3>
-                      <a
-                        href="project-detail-1.html"
-                        class="btn btn-primary m-t15"
-                        >View Project</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
                 data-category="food"
                 class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 food wow fadeIn"
                 data-wow-duration="2s"
@@ -243,7 +237,11 @@
                 <div
                   class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
                 >
-                  <img src="imgs/index/about-slider3.jpg" alt="" />
+                  <img
+                    src="imgs/index/about-slider3.jpg"
+                    alt=""
+                    class="index-gallery-imgs"
+                  />
                   <div class="overlay-bx">
                     <div class="portinner">
                       <span>July 3, 2016 in Travelling</span>
@@ -281,249 +279,6 @@
                       </h3>
                       <a
                         href="project-detail-3.html"
-                        class="btn btn-primary m-t15"
-                        >View Project</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                data-category="mockup"
-                class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 food wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.8s"
-              >
-                <div
-                  class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
-                >
-                  <img src="images/portfolio/portfolio-box1/pic4.jpg" alt="" />
-                  <div class="overlay-bx">
-                    <div class="portinner">
-                      <span>July 3, 2016 in Travelling</span>
-                      <h3 class="port-title">
-                        <a href="project-detail-4.html"
-                          >Design is where science</a
-                        >
-                      </h3>
-                      <a
-                        href="project-detail-4.html"
-                        class="btn btn-primary m-t15"
-                        >View Project</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                data-category="technology"
-                class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 mockup technology wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.2s"
-              >
-                <div
-                  class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
-                >
-                  <img src="images/portfolio/portfolio-box1/pic5.jpg" alt="" />
-                  <div class="overlay-bx">
-                    <div class="portinner">
-                      <span>July 3, 2016 in Travelling</span>
-                      <h3 class="port-title">
-                        <a href="project-detail-1.html"
-                          >Design is where science</a
-                        >
-                      </h3>
-                      <a
-                        href="project-detail-1.html"
-                        class="btn btn-primary m-t15"
-                        >View Project</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                data-category="abstract"
-                class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 abstract mockup wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.4s"
-              >
-                <div
-                  class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
-                >
-                  <img src="images/portfolio/portfolio-box1/pic6.jpg" alt="" />
-                  <div class="overlay-bx">
-                    <div class="portinner">
-                      <span>July 3, 2016 in Travelling</span>
-                      <h3 class="port-title">
-                        <a href="project-detail-2.html"
-                          >Design is where science</a
-                        >
-                      </h3>
-                      <a
-                        href="project-detail-2.html"
-                        class="btn btn-primary m-t15"
-                        >View Project</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                data-category="technology"
-                class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 food wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.6s"
-              >
-                <div
-                  class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
-                >
-                  <img src="images/portfolio/portfolio-box1/pic7.jpg" alt="" />
-                  <div class="overlay-bx">
-                    <div class="portinner">
-                      <span>July 3, 2016 in Travelling</span>
-                      <h3 class="port-title">
-                        <a href="project-detail-3.html"
-                          >Design is where science</a
-                        >
-                      </h3>
-                      <a
-                        href="project-detail-3.html"
-                        class="btn btn-primary m-t15"
-                        >View Project</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                data-category="abstract"
-                class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 abstract technology wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.8s"
-              >
-                <div
-                  class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
-                >
-                  <img src="images/portfolio/portfolio-box1/pic8.jpg" alt="" />
-                  <div class="overlay-bx">
-                    <div class="portinner">
-                      <span>July 3, 2016 in Travelling</span>
-                      <h3 class="port-title">
-                        <a href="project-detail-4.html"
-                          >Design is where science</a
-                        >
-                      </h3>
-                      <a
-                        href="project-detail-4.html"
-                        class="btn btn-primary m-t15"
-                        >View Project</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                data-category="food"
-                class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 food wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.2s"
-              >
-                <div
-                  class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
-                >
-                  <img src="images/portfolio/portfolio-box1/pic9.jpg" alt="" />
-                  <div class="overlay-bx">
-                    <div class="portinner">
-                      <span>July 3, 2016 in Travelling</span>
-                      <h3 class="port-title">
-                        <a href="project-detail-1.html"
-                          >Design is where science</a
-                        >
-                      </h3>
-                      <a
-                        href="project-detail-1.html"
-                        class="btn btn-primary m-t15"
-                        >View Project</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                data-category="technology"
-                class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 mockup technology wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.4s"
-              >
-                <div
-                  class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
-                >
-                  <img src="images/portfolio/portfolio-box1/pic10.jpg" alt="" />
-                  <div class="overlay-bx">
-                    <div class="portinner">
-                      <span>July 3, 2016 in Travelling</span>
-                      <h3 class="port-title">
-                        <a href="project-detail-2.html"
-                          >Design is where science</a
-                        >
-                      </h3>
-                      <a
-                        href="project-detail-2.html"
-                        class="btn btn-primary m-t15"
-                        >View Project</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                data-category="abstract"
-                class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 abstract mockup wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.6s"
-              >
-                <div
-                  class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
-                >
-                  <img src="images/portfolio/portfolio-box1/pic11.jpg" alt="" />
-                  <div class="overlay-bx">
-                    <div class="portinner">
-                      <span>July 3, 2016 in Travelling</span>
-                      <h3 class="port-title">
-                        <a href="project-detail-3.html"
-                          >Design is where science</a
-                        >
-                      </h3>
-                      <a
-                        href="project-detail-3.html"
-                        class="btn btn-primary m-t15"
-                        >View Project</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li
-                data-category="abstract"
-                class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 abstract wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.8s"
-              >
-                <div
-                  class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1"
-                >
-                  <img src="images/portfolio/portfolio-box1/pic12.jpg" alt="" />
-                  <div class="overlay-bx">
-                    <div class="portinner">
-                      <span>July 3, 2016 in Travelling</span>
-                      <h3 class="port-title">
-                        <a href="project-detail-4.html"
-                          >Design is where science</a
-                        >
-                      </h3>
-                      <a
-                        href="project-detail-4.html"
                         class="btn btn-primary m-t15"
                         >View Project</a
                       >
@@ -680,5 +435,7 @@
     <!-- OWL-CAROUSEL -->
     <script src="js/custom.js"></script>
     <!-- CUSTOM JS -->
+    <script src="js/galleryPage.js"></script>
+    <!-- MAIN JS -->
   </body>
 </html>
