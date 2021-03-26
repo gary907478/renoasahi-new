@@ -13238,7 +13238,7 @@ label.error {
     .dlab-meta li a {
       color: #777; }
     .dlab-meta li i {
-      color: #a6611c;
+      color: var(--primary);
       transform: scale(1.5);
       margin-right: 8px; }
 
@@ -13250,7 +13250,7 @@ label.error {
   align-items: center; }
   .readmore i {
     width: 40px;
-    background: #a6611c;
+    background: var(--primary);
     height: 40px;
     color: #fff;
     font-size: 24px;
