@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="./vendor/animate/animate.css" />
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/main.css" />
     <!-- REVOLUTION SLIDER CSS -->
     <link
       rel="stylesheet"
@@ -31,11 +30,32 @@
       href="./vendor/revolution/revolution/css/revolution.min.css"
     />
   </head>
-  <body id="bg">
+
+  <body>
+    <div id="loading-area"></div>
+    <div class="onepage"></div>
     <div class="page-wraper">
-      <div id="loading-area"></div>
       <!-- header -->
-      <header class="site-header">
+      <header class="site-header header-transparent">
+        <div class="top-bar">
+          <div class="container-fluid">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="dlab-topbar-left">
+                <ul>
+                  <li><i class="la la-phone-volume"></i> 中: 647-996-5766</li>
+                  <li><i class="la la-phone-volume"></i> EN: 647-988-3576</li>
+                </ul>
+              </div>
+              <div class="dlab-topbar-right">
+                <ul>
+                  <li>
+                    <i class="las la-envelope-open"></i> newasahiinc@gmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- main header -->
         <div class="sticky-header main-bar-wraper navbar-expand-lg">
           <div class="main-bar clearfix">
@@ -62,7 +82,7 @@
               <div class="extra-nav">
                 <div class="extra-cell">
                   <a href="contact-us-1.html" class="btn btn-primary btnhover13"
-                    >联系我们</a
+                    >Apply Now</a
                   >
                 </div>
               </div>
@@ -75,25 +95,25 @@
                 </div>
                 <ul class="nav navbar-nav navbar">
                   <li class="active">
-                    <a href="index.html">首页</a>
+                    <a href="../index.html">首页</a>
                   </li>
                   <li class="active">
-                    <a href="portfolio-2.html">案例展示</a>
+                    <a href="../portfolio-2.html">案例展示</a>
                   </li>
                   <li class="active">
-                    <a href="commercial.html">商业装修</a>
+                    <a href="../commercial.html">商业装修</a>
                   </li>
                   <li class="active">
-                    <a href="products.html">商品</a>
+                    <a href="../products.html">商品</a>
                   </li>
                   <li class="active">
-                    <a href="services.html">装修服务</a>
+                    <a href="../services.html">装修服务</a>
                   </li>
                   <li class="active">
-                    <a href="secure.html">装修保障</a>
+                    <a href="../secure.html">装修保障</a>
                   </li>
                   <li class="active">
-                    <a href="blog-list.html">装修资讯</a>
+                    <a href="../blog-list.html">装修资讯</a>
                   </li>
                 </ul>
                 <div class="dlab-social-icon">
@@ -131,1592 +151,1781 @@
         <!-- main header END -->
       </header>
       <!-- header END -->
-      <!-- Content -->
+      <div class="sidenav-list">
+        <ul class="navbar">
+          <li>
+            <a class="scroll nav-link" href="#home"
+              ><i class="las la-home"></i> <span>首页</span></a
+            >
+          </li>
+          <li>
+            <a class="scroll nav-link" href="#specifications"
+              ><i class="las la-file-alt"></i> <span>专项展示</span></a
+            >
+          </li>
+          <li>
+            <a class="scroll nav-link" href="#aboutUs"
+              ><i class="las la-user"></i> <span>关于我们</span></a
+            >
+          </li>
+          <li>
+            <a class="scroll nav-link" href="#masterPlan"
+              ><i class="las la-chart-bar"></i> <span>MASTER PLAN</span></a
+            >
+          </li>
+          <li>
+            <a class="scroll nav-link" href="#mainGallery"
+              ><i class="las la-image"></i> <span>项目展示</span></a
+            >
+          </li>
+          <li>
+            <a class="scroll nav-link" href="#ourServices"
+              ><i class="las la-cog"></i> <span>装修服务</span></a
+            >
+          </li>
+          <li>
+            <a class="scroll nav-link" href="#newsEvent"
+              ><i class="las la-rss"></i> <span>装修资讯</span></a
+            >
+          </li>
+          <li>
+            <a class="scroll nav-link" href="#footer"
+              ><i class="las la-phone-volume"></i> <span>联系我们</span></a
+            >
+          </li>
+        </ul>
+      </div>
       <div class="page-content bg-white">
-        <!-- Slider -->
-        <div class="main-slider style-two default-banner" id="home">
-          <div class="tp-banner-container">
-            <div class="tp-banner">
-              <div
-                id="rev_slider_1077_1_wrapper"
-                class="rev_slider_wrapper fullscreen-container"
-                data-alias="scroll-effect136"
-                data-source="gallery"
-                style="background-color: #111111; padding: 0px"
-              >
-                <!-- START REVOLUTION SLIDER 5.3.0.2 fullscreen mode -->
-                <div
-                  id="rev_slider_1077_1"
-                  class="rev_slider fullscreenbanner"
-                  style="display: none"
-                  data-version="5.3.0.2"
+        <!-- Main Slider -->
+        <div class="rev-slider" id="home">
+          <div
+            id="rev_slider_1164_1_wrapper"
+            class="rev_slider_wrapper fullscreen-container"
+            data-alias="exploration-header"
+            data-source="gallery"
+            style="background-color: transparent; padding: 0px"
+          >
+            <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
+            <div
+              id="rev_slider_1164_1"
+              class="rev_slider fullscreenbanner"
+              style="display: none"
+              data-version="5.4.1"
+            >
+              <ul>
+                <!-- SLIDE  -->
+                <li
+                  data-index="rs-3204"
+                  data-transition="slideoververtical"
+                  data-slotamount="default"
+                  data-hideafterloop="0"
+                  data-hideslideonmobile="off"
+                  data-easein="default"
+                  data-easeout="default"
+                  data-masterspeed="default"
+                  data-thumb="images/main-slider/slider1.jpg"
+                  data-rotate="0"
+                  data-fstransition="fade"
+                  data-fsmasterspeed="2000"
+                  data-fsslotamount="7"
+                  data-saveperformance="off"
+                  data-title=""
+                  data-param1="What our team has found in the wild"
+                  data-param2=""
+                  data-param3=""
+                  data-param4=""
+                  data-param5=""
+                  data-param6=""
+                  data-param7=""
+                  data-param8=""
+                  data-param9=""
+                  data-param10=""
+                  data-description=""
                 >
-                  <ul>
-                    <!-- SLIDE  -->
-                    <li
-                      data-index="rs-3042"
-                      data-transition="slideoverhorizontal"
-                      data-slotamount="default"
-                      data-hideafterloop="0"
-                      data-hideslideonmobile="off"
-                      data-easein="Power4.easeInOut"
-                      data-easeout="Power4.easeInOut"
-                      data-masterspeed="1000"
-                      data-thumb="images/main-slider/slide3.jpg"
-                      data-rotate="0"
-                      data-fstransition="fade"
-                      data-fsmasterspeed="1500"
-                      data-fsslotamount="7"
-                      data-saveperformance="off"
-                      data-title="MODERN HOME"
-                      data-param1=""
-                      data-param2=""
-                      data-param3=""
-                      data-param4=""
-                      data-param5=""
-                      data-param6=""
-                      data-param7=""
-                      data-param8=""
-                      data-param9=""
-                      data-param10=""
-                      data-description=""
+                  <!-- MAIN IMAGE -->
+                  <img
+                    src="imgs/index/about-slider1.jpeg"
+                    alt=""
+                    data-lazyload="imgs/index/about-slider1.jpeg"
+                    data-bgposition="center center"
+                    data-bgfit="cover"
+                    data-bgrepeat="no-repeat"
+                    data-bgparallax="6"
+                    class="rev-slidebg"
+                    data-no-retina
+                  />
+                  <!-- LAYER NR. 1 -->
+                  <!-- LAYER NR. 2 -->
+                  <div
+                    class="tp-caption"
+                    id="slide-3204-layer-1"
+                    data-x="['center','center','center','center']"
+                    data-hoffset="['-230','-230','0','0']"
+                    data-y="['top','top','top','top']"
+                    data-voffset="['250','250','350','200']"
+                    data-width="['700','600','600','300']"
+                    data-fontsize="['55','55','30','28']"
+                    data-lineheight="['75','65','36','35']"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-type="text"
+                    data-basealign="slide"
+                    data-responsive_offset="on"
+                    data-responsive="on"
+                    data-textAlign="['left','left','left','left']"
+                    data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    style="
+                      z-index: 5;
+                      white-space: normal;
+                      color: #000;
+                      font-family: 'Roboto Condensed', sans-serif;
+                      border-width: 0px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                    "
+                  >
+                    新旭室内外装潢<br />Renoasahi Renovation
+                  </div>
+                  <div
+                    class="tp-caption"
+                    id="slide-3204-layer-2"
+                    data-x="['center','center','center','center']"
+                    data-hoffset="['-290','-290','-30','-50']"
+                    data-y="['top','top','top','top']"
+                    data-voffset="['200','200','315','170']"
+                    data-width="['700','600','600','260']"
+                    data-fontsize="['55','45','30','24']"
+                    data-lineheight="['75','45','40','30']"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-type="text"
+                    data-basealign="slide"
+                    data-responsive_offset="on"
+                    data-responsive="on"
+                    data-textAlign="['left','left','left','left']"
+                    data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    style="
+                      z-index: 4;
+                      white-space: normal;
+                      color: #000;
+                      font-family: 'Roboto Condensed', sans-serif;
+                      border-width: 0px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                    "
+                  >
+                    <div
+                      class="rs-looped rs-wave"
+                      data-speed="5"
+                      data-angle="0"
+                      data-radius="3px"
+                      data-origin="50% 50%"
                     >
-                      <!-- MAIN IMAGE -->
+                      <img
+                        src="images/main-slider/slider2.png"
+                        alt=""
+                        data-ww="['420px','420px','280px','240px']"
+                        data-hh="['415px','415px','280px','240px']"
+                        width="407"
+                        height="200"
+                        data-no-retina
+                      />
+                    </div>
+                  </div>
+
+                  <!-- LAYER NR. 4 -->
+                  <div
+                    class="tp-caption tp-resizeme rs-parallaxlevel-1"
+                    id="slide-100-layer-3"
+                    data-x="['center','center','center','right']"
+                    data-hoffset="['0','0','0','0']"
+                    data-y="['bottom','bottom','bottom','bottom']"
+                    data-voffset="['-30','-20','-10','-30']"
+                    data-width="none"
+                    data-height="none"
+                    data-whitespace="nowrap"
+                    data-type="image"
+                    data-responsive_offset="on"
+                    data-responsive="on"
+                    data-frames='[{"delay":250,"speed":5000,"frame":"0","from":"y:50px;rZ:5deg;opacity:0;fb:50px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                    data-textAlign="['inherit','inherit','inherit','inherit']"
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    style="z-index: 3"
+                  >
+                    <div
+                      class="rs-looped rs-wave"
+                      data-speed="5"
+                      data-angle="0"
+                      data-radius="3px"
+                      data-origin="50% 50%"
+                    >
+                      <img
+                        src="imgs/index/about-slider1.jpeg"
+                        alt=""
+                        data-ww="['2100px','1300px','1100px','700px']"
+                        data-hh="['1100px','702px','594px','378px']"
+                        width="407"
+                        height="200"
+                        data-no-retina
+                      />
+                    </div>
+                  </div>
+
+                  <!-- LAYER NR. 5 -->
+                  <div
+                    class="tp-caption rs-button"
+                    id="slide-3204-layer-4"
+                    data-x="['center','center','center','center']"
+                    data-hoffset="['-225','-220','0','-20']"
+                    data-y="['top','top','top','top']"
+                    data-voffset="['480','480','480','320']"
+                    data-width="['700','600','600','260']"
+                    data-fontsize="['55','45','30','24']"
+                    data-lineheight="['75','45','36','30']"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-type="text"
+                    data-basealign="slide"
+                    data-responsive_offset="on"
+                    data-responsive="on"
+                    data-textAlign="['left','left','left','left']"
+                    data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    style="
+                      z-index: 4;
+                      white-space: normal;
+                      color: #000;
+                      font-family: 'Roboto Condensed', sans-serif;
+                      border-width: 0px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                    "
+                  >
+                    <a href="/contact-us-1.html" class="btn btn-primary"
+                      >联系我们</a
+                    >
+                  </div>
+                  <div
+                    class="tp-caption rs-button"
+                    id="slide-3204-layer-5"
+                    data-x="['center','center','center','center']"
+                    data-hoffset="['-225','-220','0','-20']"
+                    data-y="['bottom','bottom','bottom','bottom']"
+                    data-voffset="['100','150','200','200']"
+                    data-width="['700','600','600','260']"
+                    data-fontsize="['55','45','30','24']"
+                    data-lineheight="['75','45','36','30']"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-type="text"
+                    data-basealign="slide"
+                    data-responsive_offset="on"
+                    data-responsive="on"
+                    data-textAlign="['left','left','left','left']"
+                    data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    style="
+                      z-index: 4;
+                      white-space: normal;
+                      color: #000;
+                      font-family: 'Roboto Condensed', sans-serif;
+                      border-width: 0px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                    "
+                  ></div>
+                </li>
+
+                <!-- SLIDE  -->
+                <li
+                  data-index="rs-200"
+                  data-transition="slideoververtical"
+                  data-slotamount="default"
+                  data-hideafterloop="0"
+                  data-hideslideonmobile="off"
+                  data-easein="default"
+                  data-easeout="default"
+                  data-masterspeed="default"
+                  data-thumb="images/main-slider/slider1.jpg"
+                  data-rotate="0"
+                  data-fstransition="fade"
+                  data-fsmasterspeed="2000"
+                  data-fsslotamount="7"
+                  data-saveperformance="off"
+                  data-title=""
+                  data-param1="What our team has found in the wild"
+                  data-param2=""
+                  data-param3=""
+                  data-param4=""
+                  data-param5=""
+                  data-param6=""
+                  data-param7=""
+                  data-param8=""
+                  data-param9=""
+                  data-param10=""
+                  data-description=""
+                >
+                  <!-- MAIN IMAGE -->
+                  <img
+                    src="images/main-slider/slider1.jpg"
+                    alt=""
+                    data-lazyload="images/main-slider/slider1.jpg"
+                    data-bgposition="center center"
+                    data-bgfit="cover"
+                    data-bgrepeat="no-repeat"
+                    data-bgparallax="6"
+                    class="rev-slidebg"
+                    data-no-retina
+                  />
+                  <!-- LAYER NR. 1 -->
+                  <!-- LAYER NR. 2 -->
+                  <div
+                    class="tp-caption"
+                    id="slide-200-layer-1"
+                    data-x="['center','center','center','center']"
+                    data-hoffset="['-230','-230','0','0']"
+                    data-y="['top','top','top','top']"
+                    data-voffset="['250','250','350','200']"
+                    data-width="['700','600','600','300']"
+                    data-fontsize="['55','55','30','28']"
+                    data-lineheight="['75','65','36','35']"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-type="text"
+                    data-basealign="slide"
+                    data-responsive_offset="on"
+                    data-responsive="on"
+                    data-textAlign="['left','left','left','left']"
+                    data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    style="
+                      z-index: 5;
+                      white-space: normal;
+                      color: #000;
+                      font-family: 'Roboto Condensed', sans-serif;
+                      border-width: 0px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                    "
+                  >
+                    多伦多专业房屋装潢<br />Toronto Renovation
+                  </div>
+                  <div
+                    class="tp-caption"
+                    id="slide-200-layer-2"
+                    data-x="['center','center','center','center']"
+                    data-hoffset="['-290','-290','-30','-50']"
+                    data-y="['top','top','top','top']"
+                    data-voffset="['200','200','315','170']"
+                    data-width="['700','600','600','260']"
+                    data-fontsize="['55','45','30','24']"
+                    data-lineheight="['75','45','40','30']"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-type="text"
+                    data-basealign="slide"
+                    data-responsive_offset="on"
+                    data-responsive="on"
+                    data-textAlign="['left','left','left','left']"
+                    data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    style="
+                      z-index: 4;
+                      white-space: normal;
+                      color: #000;
+                      font-family: 'Roboto Condensed', sans-serif;
+                      border-width: 0px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                    "
+                  >
+                    <div
+                      class="rs-looped rs-wave"
+                      data-speed="5"
+                      data-angle="0"
+                      data-radius="3px"
+                      data-origin="50% 50%"
+                    >
+                      <img
+                        src="images/main-slider/slider2.png"
+                        alt=""
+                        data-ww="['420px','420px','280px','240px']"
+                        data-hh="['415px','415px','280px','240px']"
+                        width="407"
+                        height="200"
+                        data-no-retina
+                      />
+                    </div>
+                  </div>
+
+                  <!-- LAYER NR. 4 -->
+                  <div
+                    class="tp-caption tp-resizeme rs-parallaxlevel-1"
+                    id="slide-200-layer-3"
+                    data-x="['center','center','center','right']"
+                    data-hoffset="['0','0','0','0']"
+                    data-y="['bottom','bottom','bottom','bottom']"
+                    data-voffset="['-30','-20','-10','-30']"
+                    data-width="none"
+                    data-height="none"
+                    data-whitespace="nowrap"
+                    data-type="image"
+                    data-responsive_offset="on"
+                    data-responsive="on"
+                    data-frames='[{"delay":250,"speed":5000,"frame":"0","from":"y:50px;rZ:5deg;opacity:0;fb:50px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                    data-textAlign="['inherit','inherit','inherit','inherit']"
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    style="z-index: 3"
+                  >
+                    <div
+                      class="rs-looped rs-wave"
+                      data-speed="5"
+                      data-angle="0"
+                      data-radius="3px"
+                      data-origin="50% 50%"
+                    >
                       <img
                         src="imgs/index/hero-slider1.jpg"
-                        data-bgposition="center center"
-                        data-kenburns="on"
-                        data-duration="10000"
-                        data-ease="Linear.easeNone"
-                        data-scalestart="100"
-                        data-scaleend="110"
-                        data-rotatestart="0"
-                        data-rotateend="0"
-                        data-offsetstart="0 200"
-                        data-offsetend="0 -200"
                         alt=""
-                        data-bgparallax="10"
-                        class="rev-slidebg"
-                        data-no-retina=""
+                        data-ww="['2100px','1300px','1100px','700px']"
+                        data-hh="['1100px','702px','594px','378px']"
+                        width="407"
+                        height="200"
+                        data-no-retina
                       />
-                      <div
-                        class="tp-caption tp-shape tp-shapewrapper"
-                        id="slide-100-layer"
-                        data-x="['center','center','center','center']"
-                        data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-voffset="['0','0','0','0']"
-                        data-width="full"
-                        data-height="full"
-                        data-whitespace="nowrap"
-                        data-type="shape"
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-responsive="off"
-                        data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"Power4.easeOut"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        style="
-                          z-index: 2;
-                          background-color: rgba(0, 0, 0, 0.3);
-                          border-color: rgba(0, 0, 0, 0);
-                          border-width: 0px;
-                        "
-                      ></div>
-                      <!-- LAYER NR. 1 -->
-                      <div
-                        class="tp-caption tp-shape tp-shapewrapper"
-                        id="slide-3042-layer-11"
-                        data-x="['center','center','center','center']"
-                        data-hoffset="['0','0','0','0']"
-                        data-y="['bottom','bottom','bottom','bottom']"
-                        data-voffset="['0','0','0','0']"
-                        data-width="full"
-                        data-height="['400','400','400','550']"
-                        data-whitespace="nowrap"
-                        data-type="shape"
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-responsive="off"
-                        data-frames='[{"from":"opacity:0;","speed":1500,"to":"o:1;","delay":0,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        style="
-                          z-index: 5;
-                          background-color: rgba(0, 0, 0, 0.5);
-                          border-color: rgba(0, 0, 0, 0);
-                          border-width: 0px;
-                          background: linear-gradient(
-                            to bottom,
-                            rgba(0, 0, 0, 0) 0%,
-                            rgba(0, 0, 0, 0.45) 100%
-                          );
-                          cursor: default;
-                        "
-                      ></div>
-                      <!-- LAYER NR. 2 -->
-                      <div
-                        class="tp-caption BigBold-Title tp-resizeme"
-                        id="slide-3042-layer-1"
-                        data-x="['left','left','left','left']"
-                        data-hoffset="['50','50','30','17']"
-                        data-y="['bottom','bottom','bottom','bottom']"
-                        data-voffset="['110','110','155','160']"
-                        data-fontsize="['110','100','70','50']"
-                        data-lineheight="['100','90','60','60']"
-                        data-width="['none','none','none','400']"
-                        data-height="none"
-                        data-whitespace="['nowrap','nowrap','nowrap','normal']"
-                        data-type="text"
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;","ease":"Power2.easeInOut"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[10,10,10,10]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[10,10,10,10]"
-                        data-paddingleft="[0,0,0,0]"
-                        style="z-index: 6; white-space: nowrap"
-                      >
-                        流行现代-简约而不简单
-                      </div>
-                      <!-- LAYER NR. 3 -->
-                      <div
-                        class="tp-caption BigBold-SubTitle"
-                        id="slide-3042-layer-4"
-                        data-x="['left','left','left','left']"
-                        data-hoffset="['55','55','33','20']"
-                        data-y="['bottom','bottom','bottom','bottom']"
-                        data-voffset="['40','1','50','58']"
-                        data-fontsize="['15','15','15','13']"
-                        data-lineheight="['24','24','24','20']"
-                        data-width="['410','410','410','280']"
-                        data-height="['60','100','100','100']"
-                        data-whitespace="normal"
-                        data-type="text"
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-responsive="off"
-                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:50px;opacity:0;","ease":"Power2.easeInOut"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        style="
-                          z-index: 7;
-                          min-width: 410px;
-                          max-width: 410px;
-                          max-width: 60px;
-                          max-width: 60px;
-                          white-space: normal;
-                        "
-                      >
-                        紧随当代设计潮流，简约大气的设计风格，被更多年轻人群喜爱
-                      </div>
-                      <!-- LAYER NR. 4 -->
-                      <div
-                        class="tp-caption BigBold-Button rev-btn"
-                        id="slide-3042-layer-7"
-                        data-x="['left','left','left','left']"
-                        data-hoffset="['480','480','30','20']"
-                        data-y="['bottom','bottom','bottom','bottom']"
-                        data-voffset="['50','50','30','20']"
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-type="button"
-                        data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]'
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-responsive="off"
-                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:50px;opacity:0;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[15,15,15,15]"
-                        data-paddingright="[50,50,50,50]"
-                        data-paddingbottom="[15,15,15,15]"
-                        data-paddingleft="[50,50,50,50]"
-                        style="
-                          z-index: 8;
-                          white-space: nowrap;
-                          border-color: rgba(255, 255, 255, 0.25);
-                          outline: none;
-                          box-shadow: none;
-                          box-sizing: border-box;
-                          -moz-box-sizing: border-box;
-                          -webkit-box-sizing: border-box;
-                          cursor: pointer;
-                        "
-                      >
-                        了解更多
-                      </div>
-                      <!-- LAYER NR. 5 -->
-                      <div
-                        class="tp-caption BigBold-Button rev-btn"
-                        id="slide-3042-layer-12"
-                        data-x="['left','left','left','left']"
-                        data-hoffset="['676','676','226','216']"
-                        data-y="['bottom','bottom','bottom','bottom']"
-                        data-voffset="['50','50','30','20']"
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-type="button"
-                        data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-responsive="off"
-                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:50px;opacity:0;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[15,15,15,15]"
-                        data-paddingright="[20,20,20,20]"
-                        data-paddingbottom="[15,15,15,15]"
-                        data-paddingleft="[20,20,20,20]"
-                        style="
-                          z-index: 9;
-                          white-space: nowrap;
-                          border-color: rgba(255, 255, 255, 0.25);
-                          outline: none;
-                          box-shadow: none;
-                          box-sizing: border-box;
-                          -moz-box-sizing: border-box;
-                          -webkit-box-sizing: border-box;
-                          cursor: pointer;
-                        "
-                      >
-                        <i class="fa fa-chevron-right"></i>
-                      </div>
-                    </li>
-                    <!-- SLIDE  -->
-                    <li
-                      data-index="rs-3043"
-                      data-transition="slideoverhorizontal"
-                      data-slotamount="default"
-                      data-hideafterloop="0"
-                      data-hideslideonmobile="off"
-                      data-easein="Power4.easeInOut"
-                      data-easeout="Power4.easeInOut"
-                      data-masterspeed="1000"
-                      data-thumb="images/main-slider/slide4.jpg"
-                      data-rotate="0"
-                      data-saveperformance="off"
-                      data-title="APARTMENTS"
-                      data-param1=""
-                      data-param2=""
-                      data-param3=""
-                      data-param4=""
-                      data-param5=""
-                      data-param6=""
-                      data-param7=""
-                      data-param8=""
-                      data-param9=""
-                      data-param10=""
-                      data-description=""
+                    </div>
+                  </div>
+
+                  <!-- LAYER NR. 5 -->
+                  <div
+                    class="tp-caption rs-button"
+                    id="slide-200-layer-4"
+                    data-x="['center','center','center','center']"
+                    data-hoffset="['-225','-220','0','-20']"
+                    data-y="['top','top','top','top']"
+                    data-voffset="['480','480','480','320']"
+                    data-width="['700','600','600','260']"
+                    data-fontsize="['55','45','30','24']"
+                    data-lineheight="['75','45','36','30']"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-type="text"
+                    data-basealign="slide"
+                    data-responsive_offset="on"
+                    data-responsive="on"
+                    data-textAlign="['left','left','left','left']"
+                    data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    style="
+                      z-index: 4;
+                      white-space: normal;
+                      color: #000;
+                      font-family: 'Roboto Condensed', sans-serif;
+                      border-width: 0px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                    "
+                  >
+                    <a href="./contact-us-1.html" class="btn btn-primary">
+                      联系我们</a
                     >
-                      <!-- MAIN IMAGE -->
-                      <img
-                        src="imgs/index/hero-slider2.jpg"
-                        data-bgposition="center center"
-                        data-kenburns="on"
-                        data-duration="10000"
-                        data-ease="Linear.easeNone"
-                        data-scalestart="100"
-                        data-scaleend="110"
-                        data-rotatestart="0"
-                        data-rotateend="0"
-                        data-offsetstart="-500 0"
-                        data-offsetend="500 0"
-                        alt=""
-                        data-bgparallax="10"
-                        class="rev-slidebg"
-                        data-no-retina=""
-                      />
-                      <div
-                        class="tp-caption tp-shape tp-shapewrapper"
-                        id="slide-200-layer"
-                        data-x="['center','center','center','center']"
-                        data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-voffset="['0','0','0','0']"
-                        data-width="full"
-                        data-height="full"
-                        data-whitespace="nowrap"
-                        data-type="shape"
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-responsive="off"
-                        data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"Power4.easeOut"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        style="
-                          z-index: 2;
-                          background-color: rgba(0, 0, 0, 0.3);
-                          border-color: rgba(0, 0, 0, 0);
-                          border-width: 0px;
-                        "
-                      ></div>
-                      <!-- LAYER NR. 6 -->
-                      <div
-                        class="tp-caption tp-shape tp-shapewrapper"
-                        id="slide-3043-layer-11"
-                        data-x="['center','center','center','center']"
-                        data-hoffset="['0','0','0','0']"
-                        data-y="['bottom','bottom','bottom','bottom']"
-                        data-voffset="['0','0','0','0']"
-                        data-width="full"
-                        data-height="['400','400','400','550']"
-                        data-whitespace="nowrap"
-                        data-type="shape"
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-responsive="off"
-                        data-frames='[{"from":"opacity:0;","speed":1500,"to":"o:1;","delay":0,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        style="
-                          z-index: 10;
-                          background-color: rgba(0, 0, 0, 0.5);
-                          border-color: rgba(0, 0, 0, 0);
-                          border-width: 0px;
-                          background: linear-gradient(
-                            to bottom,
-                            rgba(0, 0, 0, 0) 0%,
-                            rgba(0, 0, 0, 0.45) 100%
-                          );
-                          cursor: default;
-                        "
-                      ></div>
-                      <!-- LAYER NR. 7 -->
-                      <div
-                        class="tp-caption BigBold-Title tp-resizeme"
-                        id="slide-3043-layer-1"
-                        data-x="['left','left','left','left']"
-                        data-hoffset="['50','50','30','17']"
-                        data-y="['bottom','bottom','bottom','bottom']"
-                        data-voffset="['110','110','155','160']"
-                        data-fontsize="['110','100','70','50']"
-                        data-lineheight="['100','90','60','60']"
-                        data-width="['none','none','none','400']"
-                        data-height="none"
-                        data-whitespace="['nowrap','nowrap','nowrap','normal']"
-                        data-type="text"
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[10,10,10,10]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[10,10,10,10]"
-                        data-paddingleft="[0,0,0,0]"
-                        style="z-index: 11; white-space: nowrap"
-                      >
-                        经典传统-风韵历久弥新
-                      </div>
-                      <!-- LAYER NR. 8 -->
-                      <div
-                        class="tp-caption BigBold-SubTitle"
-                        id="slide-3043-layer-4"
-                        data-x="['left','left','left','left']"
-                        data-hoffset="['55','55','33','20']"
-                        data-y="['bottom','bottom','bottom','bottom']"
-                        data-voffset="['40','1','50','58']"
-                        data-fontsize="['15','15','15','13']"
-                        data-lineheight="['24','24','24','20']"
-                        data-width="['410','410','410','280']"
-                        data-height="['60','100','100','100']"
-                        data-whitespace="normal"
-                        data-type="text"
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-responsive="off"
-                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:50px;opacity:0;","ease":"Power2.easeInOut"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        style="
-                          z-index: 12;
-                          min-width: 410px;
-                          max-width: 410px;
-                          max-width: 60px;
-                          max-width: 60px;
-                          white-space: normal;
-                        "
-                      >
-                        复古传统的装修风格永不过时，经典风格让房屋更能体现时空间的厚重
-                      </div>
-                      <!-- LAYER NR. 9 -->
-                      <div
-                        class="tp-caption BigBold-Button rev-btn"
-                        id="slide-3043-layer-7"
-                        data-x="['left','left','left','left']"
-                        data-hoffset="['480','480','30','20']"
-                        data-y="['bottom','bottom','bottom','bottom']"
-                        data-voffset="['50','50','30','20']"
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-type="button"
-                        data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]'
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-responsive="off"
-                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:50px;opacity:0;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[15,15,15,15]"
-                        data-paddingright="[50,50,50,50]"
-                        data-paddingbottom="[15,15,15,15]"
-                        data-paddingleft="[50,50,50,50]"
-                        style="
-                          z-index: 13;
-                          white-space: nowrap;
-                          border-color: rgba(255, 255, 255, 0.25);
-                          outline: none;
-                          box-shadow: none;
-                          box-sizing: border-box;
-                          -moz-box-sizing: border-box;
-                          -webkit-box-sizing: border-box;
-                          cursor: pointer;
-                        "
-                      >
-                        了解更多
-                      </div>
-                      <!-- LAYER NR. 10 -->
-                      <div
-                        class="tp-caption BigBold-Button rev-btn"
-                        id="slide-3043-layer-12"
-                        data-x="['left','left','left','left']"
-                        data-hoffset="['676','676','226','216']"
-                        data-y="['bottom','bottom','bottom','bottom']"
-                        data-voffset="['50','50','30','20']"
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-type="button"
-                        data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
-                        data-basealign="slide"
-                        data-responsive_offset="off"
-                        data-responsive="off"
-                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:50px;opacity:0;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[15,15,15,15]"
-                        data-paddingright="[20,20,20,20]"
-                        data-paddingbottom="[15,15,15,15]"
-                        data-paddingleft="[20,20,20,20]"
-                        style="
-                          z-index: 14;
-                          white-space: nowrap;
-                          border-color: rgba(255, 255, 255, 0.25);
-                          outline: none;
-                          box-shadow: none;
-                          box-sizing: border-box;
-                          -moz-box-sizing: border-box;
-                          -webkit-box-sizing: border-box;
-                          cursor: pointer;
-                        "
-                      >
-                        <i class="fa fa-chevron-right"></i>
-                      </div>
-                    </li>
-                    <!-- SLIDE  -->
-                  </ul>
+                  </div>
                   <div
-                    class="tp-bannertimer tp-bottom"
-                    style="visibility: hidden !important"
+                    class="tp-caption rs-button"
+                    id="slide-200-layer-5"
+                    data-x="['center','center','center','center']"
+                    data-hoffset="['-225','-220','0','-20']"
+                    data-y="['bottom','bottom','bottom','bottom']"
+                    data-voffset="['100','150','200','200']"
+                    data-width="['700','600','600','260']"
+                    data-fontsize="['55','45','30','24']"
+                    data-lineheight="['75','45','36','30']"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-type="text"
+                    data-basealign="slide"
+                    data-responsive_offset="on"
+                    data-responsive="on"
+                    data-textAlign="['left','left','left','left']"
+                    data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                    data-paddingtop="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    style="
+                      z-index: 4;
+                      white-space: normal;
+                      color: #000;
+                      font-family: 'Roboto Condensed', sans-serif;
+                      border-width: 0px;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                    "
                   ></div>
-                </div>
-              </div>
+                </li>
+              </ul>
+              <div
+                class="tp-bannertimer tp-bottom"
+                style="visibility: hidden !important"
+              ></div>
             </div>
           </div>
+          <!-- END REVOLUTION SLIDER -->
         </div>
-        <!-- Slider END -->
-        <div class="content-block">
-          <!-- About Me -->
-          <section class="content-inner exhibition-bx">
-            <div class="container">
-              <div class="row align-items-center">
-                <div
-                  class="col-lg-6 wow fadeIn"
-                  data-wow-duration="2s"
-                  data-wow-delay="0.2s"
-                >
-                  <div class="exhibition-carousel owl-carousel owl-none m-b30">
-                    <div class="item">
-                      <img src="imgs/index/about-slider1.jpeg" alt="" />
-                    </div>
-                    <div class="item">
-                      <img src="imgs/index/about-slider2.jpg" alt="" />
-                    </div>
-                    <div class="item">
-                      <img src="imgs/index/about-slider1.jpeg" alt="" />
-                    </div>
-                    <div class="item">
-                      <img src="imgs/index/about-slider2.jpg" alt="" />
-                    </div>
-                  </div>
+        <!-- Main Slider -->
+        <section class="amenities-area">
+          <div class="amenities-carousel owl-carousel owl-btn-center-lr">
+            <div
+              class="items wow fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.2s"
+            >
+              <div class="amenit-box">
+                <div class="media">
+                  <img src="imgs/index/header-s1.jpg" alt="" />
                 </div>
-                <div class="col-lg-6 m-b30">
-                  <div class="section-head">
-                    <h2 class="title">我们是您最值得信赖的施工团队</h2>
-                    <p>
-                      新旭装潢团队是多伦多本地专业房屋装修团队，拥有多年丰富的房屋设计以及装潢经验。新旭秉承着细心,
-                      高效, 负责的态度，为客户们提供多元化，多样化的装潢计划。
-                    </p>
-                  </div>
-                  <a href="contact-us-1.html" class="btn btn-primary m-r10"
-                    >联系我们</a
-                  >
-                  <a href="portfolio-2.html" class="btn btn-primary"
-                    >案例展示</a
-                  >
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- About Us -->
-          <!-- Video Section -->
-          <section
-            class="video-bx overlay-black-middle"
-            style="
-              background-image: url(imgs/index/newasahi-home-bg-banner-01.jpg);
-              background-size: cover;
-            "
-          >
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12 text-center text-white">
-                  <!-- <div class="video-play">
-                    <a
-                      href="https://www.youtube.com/watch?v=Dj6CKxQue7U"
-                      class="popup-youtube video"
-                      ><i class="fa fa-play"></i
-                    ></a>
-                  </div> -->
-                  <h2 class="video-title text-white">多年装修经验</h2>
-                  <p class="video-content">
-                    坚持
-                    杜绝暴利，平价装修，高端品质的信念。拥有覆盖大多地区多个出色的设计装修团队。同时也拥有500万工程保险和WSIB劳工保险
-                  </p>
-                  <a href="contact-us-1.html" class="btn btn-primary radius-xl"
-                    ><span class="text-black">联系我们</span></a
-                  >
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Video Section END -->
-          <section class="content-inner-2" data-content="PROMISES">
-            <div class="container">
-              <div class="row">
-                <div
-                  class="col-lg-6 col-md-3 col-sm-6 col-12 m-md-b30 wow fadeIn service-icon"
-                  data-wow-delay="0.2s"
-                  data-wow-duration="2s"
-                >
-                  <div class="icon-bx-wraper sr-iconbox">
-                    <div class="icon-lg m-b20">
-                      <a
-                        href="javascript:void(0)"
-                        class="icon-cell icon-cell-size"
-                        ><img src="imgs/icon/icon1.png" alt=""
-                      /></a>
-                    </div>
-                    <div class="icon-content">
-                      <h2 class="dlab-tilte">质量有保障</h2>
-                      <p>
-                        人性化的服务是公司的宗旨，给顾客用放心材料是我们的根本
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-md-3 col-sm-6 col-12 m-md-b30 wow fadeIn service-icon"
-                  data-wow-delay="0.4s"
-                  data-wow-duration="2s"
-                >
-                  <div class="icon-bx-wraper sr-iconbox">
-                    <div class="icon-lg m-b20">
-                      <a
-                        href="javascript:void(0)"
-                        class="icon-cell icon-cell-size"
-                        ><img src="imgs/icon/icon2.png" alt=""
-                      /></a>
-                    </div>
-                    <div class="icon-content">
-                      <h2 class="dlab-tilte">证件更齐全</h2>
-                      <p>
-                        500万保险护航，WSIB安全保险。齐全的证件让您更加放心。
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-md-3 col-sm-6 col-12 wow fadeIn service-icon"
-                  data-wow-delay="0.6s"
-                  data-wow-duration="2s"
-                >
-                  <div class="icon-bx-wraper sr-iconbox">
-                    <div class="icon-lg m-b20">
-                      <a
-                        href="javascript:void(0)"
-                        class="icon-cell icon-cell-size"
-                        ><img src="imgs/icon/icon3.png" alt=""
-                      /></a>
-                    </div>
-                    <div class="icon-content">
-                      <h2 class="dlab-tilte">杜绝恶意增项</h2>
-                      <p>
-                        装修顾问为您一对一服务，对您正在比较的所有装修报价提供中立客观的分析和建议，杜绝后期施工中的恶意增项和偷工减料！
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-md-3 col-sm-6 col-12 wow fadeIn service-icon"
-                  data-wow-delay="0.6s"
-                  data-wow-duration="2s"
-                >
-                  <div class="icon-bx-wraper sr-iconbox">
-                    <div class="icon-lg m-b20">
-                      <a
-                        href="javascript:void(0)"
-                        class="icon-cell icon-cell-size"
-                        ><img src="imgs/icon/icon4.png" alt=""
-                      /></a>
-                    </div>
-                    <div class="icon-content">
-                      <h2 class="dlab-tilte">工期拖延赔偿</h2>
-                      <p>
-                        所有装修项目均采用标准的格式合同，对于正常变更外的工程延期，我们安排客户赔偿，杜绝项目烂尾！
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-md-3 col-sm-6 col-12 wow fadeIn service-icon"
-                  data-wow-delay="0.6s"
-                  data-wow-duration="2s"
-                >
-                  <div class="icon-bx-wraper sr-iconbox">
-                    <div class="icon-lg m-b20">
-                      <a
-                        href="javascript:void(0)"
-                        class="icon-cell icon-cell-size"
-                        ><img src="./imgs/icon/money.svg" alt=""
-                      /></a>
-                    </div>
-                    <div class="icon-content">
-                      <h2 class="dlab-tilte">杜绝一切第三方费用</h2>
-                      <p>
-                        我们秉承
-                        “透明报价，周到服务，终身质保，缔造业主的装修首选”的企业文化，集成优化设计、预算、材料、施工、售后等冗繁的装修环节，打破传统行业壁垒，致力于为广大消费者提供最专业的一体化装饰服务。
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-md-3 col-sm-6 col-12 wow fadeIn service-icon"
-                  data-wow-delay="0.6s"
-                  data-wow-duration="2s"
-                >
-                  <div class="icon-bx-wraper sr-iconbox">
-                    <div class="icon-lg m-b20">
-                      <a
-                        href="javascript:void(0)"
-                        class="icon-cell icon-cell-size"
-                        ><img src="./imgs/icon/design.svg" alt=""
-                      /></a>
-                    </div>
-                    <div class="icon-content">
-                      <h2 class="dlab-tilte">专业的个性化定制</h2>
-                      <p>
-                        我们定位于“专注设计，拒绝平庸”的品牌理念。并以一系列革命性的管理模式，为多伦多每一位亟待装修的业主个性化定制高品质的装饰服务。
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Our Gallery -->
-          <section class="content-inner" data-content="PORTFOLIO">
-            <div class="container">
-              <div class="section-head text-center">
-                <!-- <p>项目展示</p> -->
-                <h2 class="title">项目展示</h2>
-                <!-- <p>
-                  Phasellus dolor risus, luctus at lorem eu, sollicitudin mollis
-                  leo. Pellentesque tincidunt vel tortor et cursus. Donec
-                  posuere risus vitae viverra cursus. Nunc porttitor pharetra
-                  elit id
-                </p> -->
-              </div>
-              <div
-                class="index-gallery-grid"
-                id="lightgallery"
-                id="index-gallery-display"
-              >
-                <!-- Gallery Item 1 -->
-                <div class="index-gallery-item">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="./imgs/index/about-slider1.jpeg"
-                          alt=""
-                          class="index-gallery-imgs"
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <span
-                            data-exthumbimage="./imgs/index/about-slider1.jpeg"
-                            data-src="./imgs/index/about-slider1.jpeg"
-                            class="lightimg index-gallery-imgs-lb"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Gallery Item 2 -->
-
-                <div class="index-gallery-item">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="./imgs/index/about-slider3.jpg"
-                          alt=""
-                          class="index-gallery-imgs"
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <span
-                            data-exthumbimage="./imgs/index/about-slider3.jpg"
-                            data-src="./imgs/index/about-slider3.jpg"
-                            class="lightimg index-gallery-imgs-lb"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Gallery Item 3 -->
-
-                <div class="index-gallery-item">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic3.jpg"
-                          alt=""
-                          class="index-gallery-imgs"
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic3.jpg"
-                            data-src="images/portfolio/portfolio-box/pic3.jpg"
-                            class="lightimg index-gallery-imgs-lb"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Gallery Item 4 -->
-
-                <div class="index-gallery-item">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic3.jpg"
-                          alt=""
-                          class="index-gallery-imgs"
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic3.jpg"
-                            data-src="images/portfolio/portfolio-box/pic3.jpg"
-                            class="lightimg index-gallery-imgs-lb"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Gallery Item 5 -->
-
-                <div class="index-gallery-item">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic3.jpg"
-                          alt=""
-                          class="index-gallery-imgs"
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic3.jpg"
-                            data-src="images/portfolio/portfolio-box/pic3.jpg"
-                            class="lightimg index-gallery-imgs-lb"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Gallery Item 6 -->
-
-                <div class="index-gallery-item">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic3.jpg"
-                          alt=""
-                          class="index-gallery-imgs"
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic3.jpg"
-                            data-src="images/portfolio/portfolio-box/pic3.jpg"
-                            class="lightimg index-gallery-imgs-lb"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Gallery Item 7 -->
-
-                <div class="index-gallery-item">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic3.jpg"
-                          alt=""
-                          class="index-gallery-imgs"
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic3.jpg"
-                            data-src="images/portfolio/portfolio-box/pic3.jpg"
-                            class="lightimg index-gallery-imgs-lb"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Gallery Item 8 -->
-
-                <div class="index-gallery-item">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic3.jpg"
-                          alt=""
-                          class="index-gallery-imgs"
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic3.jpg"
-                            data-src="images/portfolio/portfolio-box/pic3.jpg"
-                            class="lightimg index-gallery-imgs-lb"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- <div class="row" >
-                <div class="col-md-6 col-lg-3 col-sm-6">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="./imgs/index/about-slider1.jpeg"
-                          alt=""
-                          class="timg"
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <span
-                            data-exthumbimage="./imgs/index/about-slider1.jpeg"
-                            data-src="./imgs/index/about-slider1.jpeg"
-                            class="lightimg"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.6s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic3.jpg"
-                          alt=""
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <a
-                            href="https://www.youtube.com/watch?v=Dj6CKxQue7U"
-                            class="popup-youtube"
-                          >
-                            <i class="fa fa-play icon-bx-xs"></i>
-                          </a>
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic3.jpg"
-                            data-src="images/portfolio/portfolio-box/pic3.jpg"
-                            class="lightimg"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-3 col-sm-6">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic2.jpg"
-                          alt=""
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <a
-                            href="https://www.youtube.com/watch?v=Dj6CKxQue7U"
-                            class="popup-youtube"
-                          >
-                            <i class="fa fa-play icon-bx-xs"></i>
-                          </a>
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic2.jpg"
-                            data-src="images/portfolio/portfolio-box/pic2.jpg"
-                            class="lightimg"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.6s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic3.jpg"
-                          alt=""
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <a
-                            href="https://www.youtube.com/watch?v=Dj6CKxQue7U"
-                            class="popup-youtube"
-                          >
-                            <i class="fa fa-play icon-bx-xs"></i>
-                          </a>
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic3.jpg"
-                            data-src="images/portfolio/portfolio-box/pic3.jpg"
-                            class="lightimg"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-3 col-sm-6">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.4s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic2.jpg"
-                          alt=""
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <a
-                            href="https://www.youtube.com/watch?v=Dj6CKxQue7U"
-                            class="popup-youtube"
-                          >
-                            <i class="fa fa-play icon-bx-xs"></i>
-                          </a>
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic2.jpg"
-                            data-src="images/portfolio/portfolio-box/pic2.jpg"
-                            class="lightimg"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.6s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic3.jpg"
-                          alt=""
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <a
-                            href="https://www.youtube.com/watch?v=Dj6CKxQue7U"
-                            class="popup-youtube"
-                          >
-                            <i class="fa fa-play icon-bx-xs"></i>
-                          </a>
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic3.jpg"
-                            data-src="images/portfolio/portfolio-box/pic3.jpg"
-                            class="lightimg"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-3 col-sm-6">
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.8s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic4.jpg"
-                          alt=""
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <a
-                            href="https://www.youtube.com/watch?v=Dj6CKxQue7U"
-                            class="popup-youtube"
-                          >
-                            <i class="fa fa-play icon-bx-xs"></i>
-                          </a>
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic4.jpg"
-                            data-src="images/portfolio/portfolio-box/pic4.jpg"
-                            class="lightimg"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="dlab-box gallery-box-1 m-b30 wow fadeIn"
-                    data-wow-duration="2s"
-                    data-wow-delay="0.2s"
-                  >
-                    <div class="dlab-media dlab-img-overlay1 overlay-primary">
-                      <a href="javascript:void(0);">
-                        <img
-                          src="images/portfolio/portfolio-box/pic5.jpg"
-                          alt=""
-                        />
-                      </a>
-                      <div class="overlay-bx">
-                        <div class="overlay-icon">
-                          <a
-                            href="https://www.youtube.com/watch?v=Dj6CKxQue7U"
-                            class="popup-youtube"
-                          >
-                            <i class="fa fa-play icon-bx-xs"></i>
-                          </a>
-                          <span
-                            data-exthumbimage="images/portfolio/portfolio-box/pic5.jpg"
-                            data-src="images/portfolio/portfolio-box/pic5.jpg"
-                            class="lightimg"
-                            title="Title Come Here"
-                          >
-                            <i class="fa fa-search icon-bx-xs"></i>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-            </div>
-          </section>
-          <!-- Counters -->
-          <div class="bg-light content-inner" data-content="OUR TEAM">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-6 m-b30">
-                  <div class="counter-left archia-counter">
-                    <div class="icon-lg pull-left m-tb10">
-                      <i class="ti-user"></i>
-                    </div>
-                    <div class="clearfix m-l90">
-                      <div class="counter m-b5">200+</div>
-                      <span class="font-16 text-black">优质合作伙伴</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-6 m-b30">
-                  <div class="counter-left archia-counter">
-                    <div class="icon-lg pull-left m-tb10">
-                      <i class="ti-clipboard"></i>
-                    </div>
-                    <div class="clearfix m-l90">
-                      <div class="counter m-b5">$24M+</div>
-                      <span class="font-16 text-black">顺利完成工程额</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-6 m-b30">
-                  <div class="counter-left archia-counter">
-                    <div class="icon-lg pull-left m-tb10">
-                      <i class="ti-timer"></i>
-                    </div>
-                    <div class="clearfix m-l90">
-                      <div class="counter m-b5">12</div>
-                      <span class="font-16 text-black">年诚信经营</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Counters END -->
-
-          <!-- Our Team -->
-          <!-- <section class="content-inner-2" data-content="OUR TEAM">
-            <div class="container">
-              <div class="section-head text-center">
-                <p>Meet The Team</p>
-                <h2 class="title">Our Team</h2>
-              </div>
-              <div class="row">
-                <div
-                  class="col-lg-3 col-md-6 col-sm-6 m-md-b30 wow fadeIn"
-                  data-wow-duration="2s"
-                  data-wow-delay="0.2s"
-                >
-                  <div class="our-team team-style1">
-                    <div class="dlab-media radius-sm">
-                      <img src="images/team/our-team/pic1.jpg" alt="" />
-                    </div>
-                    <div class="team-title-bx text-center">
-                      <h2 class="team-title">Philip Demarco</h2>
-                      <span class="clearfix">ARCHITECT</span>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-3 col-md-6 col-sm-6 m-md-b30 wow fadeIn"
-                  data-wow-duration="2s"
-                  data-wow-delay="0.4s"
-                >
-                  <div class="our-team team-style1">
-                    <div class="dlab-media radius-sm">
-                      <img src="images/team/our-team/pic2.jpg" alt="" />
-                    </div>
-                    <div class="team-title-bx text-center">
-                      <h2 class="team-title">Pham Zima</h2>
-                      <span class="clearfix">REALTOR</span>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-3 col-md-6 col-sm-6 m-sm-b30 wow fadeIn"
-                  data-wow-duration="2s"
-                  data-wow-delay="0.6s"
-                >
-                  <div class="our-team team-style1">
-                    <div class="dlab-media radius-sm">
-                      <img src="images/team/our-team/pic3.jpg" alt="" />
-                    </div>
-                    <div class="team-title-bx text-center">
-                      <h2 class="team-title">Philip Demarco</h2>
-                      <span class="clearfix">ARCHITECT</span>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-3 col-md-6 col-sm-6 wow fadeIn"
-                  data-wow-duration="2s"
-                  data-wow-delay="0.8s"
-                >
-                  <div class="our-team team-style1">
-                    <div class="dlab-media radius-sm">
-                      <img src="images/team/our-team/pic4.jpg" alt="" />
-                    </div>
-                    <div class="team-title-bx text-center">
-                      <h2 class="team-title">Philip Demarco</h2>
-                      <span class="clearfix">MANAGER</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section> -->
-          <!-- Our Team END -->
-          <section
-            class="content-inner-2"
-            data-content="OUR SERVICES"
-            id="ourServices"
-          >
-            <div class="container">
-              <div
-                class="row align-items-end section-head wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.5s"
-              >
-                <div class="col-md-6">
-                  <h2 class="title">服务项目</h2>
-                  <div class="dlab-separator bg-primary"></div>
-                  <!-- <p class="mb-3 mb-md-0">
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form
-                  </p> -->
-                </div>
-                <div class="col-md-6 text-md-right">
-                  <a href="javascript:void" class="btn btn-primary">查看所有</a>
+                <div class="info">
+                  <h5 class="title">
+                    <i class="ti-home"></i>
+                    <span>白色现代</span>
+                  </h5>
                 </div>
               </div>
             </div>
             <div
-              class="service-area"
-              style="
-                background-image: url(./imgs/index/newasahi-home-bg-banner-01.jpg);
-              "
+              class="items wow fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.4s"
             >
-              <div class="row spno service-row">
+              <div class="amenit-box">
+                <div class="media">
+                  <img src="imgs/index/header-s2.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h5 class="title">
+                    <i class="ti-home"></i>
+                    <span>自然青绿</span>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div
+              class="items wow fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.6s"
+            >
+              <div class="amenit-box">
+                <div class="media">
+                  <img src="imgs/index/header-s3.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h5 class="title">
+                    <i class="ti-home"></i>
+                    <span>时尚黑金</span>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="content-inner-2"
+          data-content="SPECIFICATIONS"
+          id="specifications"
+        >
+          <div class="container">
+            <div class="section-head head-col">
+              <h2
+                class="title wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.3s"
+              >
+                专项展示
+              </h2>
+              <!-- <p
+                class="wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form
+              </p> -->
+            </div>
+          </div>
+          <div class="row faqs-box spno">
+            <div class="col-md-8 col-lg-8 col-xl-8">
+              <div
+                class="faq-media wow fadeInLeft"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
+                <img
+                  src="imgs/index/specs/kitchen.jpg"
+                  id="Capmap1"
+                  class="active"
+                  alt=""
+                />
+                <img
+                  src="imgs/index/specs/beddingroom.jpg"
+                  id="Capmap2"
+                  alt=""
+                />
+                <img
+                  src="imgs/index/specs/hallway.jpg"
+                  id="Capmap3"
+                  alt=""
+                  style="object-position: bottom"
+                />
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-3 col-xxxl-2 faq-list">
+              <!-- <div
+                class="text-right mb-4 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
+                <a href="#" class="btn btn-primary">View All Services</a>
+              </div> -->
+              <div class="accordion" id="faqSpecifications">
                 <div
-                  class="col wow bounceInUp"
+                  class="card wow fadeInUp"
                   data-wow-duration="2s"
                   data-wow-delay="0.2s"
                 >
-                  <div class="service-box">
-                    <div class="media">
-                      <img src="imgs/services/interior-renovation.jpg" alt="" />
-                    </div>
-                    <div class="info">
-                      <h4 class="title">室内装修</h4>
-                    </div>
+                  <div class="card-header" id="heading1">
+                    <a
+                      href="javascript:void(0)"
+                      data-toggle="collapse"
+                      data-target="#faq1"
+                      aria-expanded="true"
+                      aria-controls="faq1"
+                      data-image-bx="Capmap1"
+                    >
+                      厨房
+                    </a>
+                  </div>
+                  <div
+                    id="faq1"
+                    class="collapse faq-content show"
+                    aria-labelledby="heading1"
+                    data-parent="#faqSpecifications"
+                  >
+                    <!-- <div class="card-body">
+                      earthquake resistant r.c.c frame structure for safety
+                      aspects.
+                    </div> -->
                   </div>
                 </div>
                 <div
-                  class="col wow bounceInUp"
+                  class="card wow fadeInUp"
                   data-wow-duration="2s"
                   data-wow-delay="0.4s"
                 >
-                  <div class="service-box">
-                    <div class="media">
-                      <img src="imgs/services/whole-house-custom.jpg" alt="" />
-                    </div>
-                    <div class="info">
-                      <h4 class="title">全屋定制</h4>
-                    </div>
+                  <div class="card-header" id="heading2">
+                    <a
+                      href="javascript:void(0)"
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq2"
+                      aria-expanded="false"
+                      aria-controls="faq2"
+                      data-image-bx="Capmap2"
+                    >
+                      卧室
+                    </a>
+                  </div>
+                  <div
+                    id="faq2"
+                    class="collapse faq-content"
+                    aria-labelledby="heading2"
+                    data-parent="#faqSpecifications"
+                  >
+                    <!-- <div class="card-body">
+                      earthquake resistant r.c.c frame structure for safety
+                      aspects.
+                    </div> -->
                   </div>
                 </div>
                 <div
-                  class="col wow bounceInUp"
+                  class="card wow fadeInUp"
                   data-wow-duration="2s"
                   data-wow-delay="0.6s"
                 >
-                  <div class="service-box">
-                    <div class="media">
-                      <img
-                        src="imgs/services/commercial-decoration.jpg"
-                        alt=""
-                      />
-                    </div>
-                    <div class="info">
-                      <h4 class="title">商业装修</h4>
-                    </div>
+                  <div class="card-header" id="heading3">
+                    <a
+                      href="javascript:void(0)"
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq3"
+                      aria-expanded="false"
+                      aria-controls="faq3"
+                      data-image-bx="Capmap3"
+                    >
+                      地板
+                    </a>
+                  </div>
+                  <div
+                    id="faq3"
+                    class="collapse faq-content"
+                    aria-labelledby="heading3"
+                    data-parent="#faqSpecifications"
+                  >
+                    <!-- <div class="card-body">
+                      earthquake resistant r.c.c frame structure for safety
+                      aspects.
+                    </div> -->
                   </div>
                 </div>
                 <div
-                  class="col wow bounceInUp"
+                  class="card wow fadeInUp"
                   data-wow-duration="2s"
                   data-wow-delay="0.8s"
                 >
-                  <div class="service-box">
-                    <div class="media">
-                      <img src="imgs/services/glass-decoration.jpg" alt="" />
-                    </div>
-                    <div class="info">
-                      <h4 class="title">玻璃装潢</h4>
+                  <div class="card-header" id="heading4">
+                    <a
+                      href="javascript:void(0)"
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq4"
+                      aria-expanded="false"
+                      aria-controls="faq4"
+                      data-image-bx="Capmap1"
+                    >
+                      Floor
+                    </a>
+                  </div>
+                  <div
+                    id="faq4"
+                    class="collapse faq-content"
+                    aria-labelledby="heading4"
+                    data-parent="#faqSpecifications"
+                  >
+                    <div class="card-body">
+                      earthquake resistant r.c.c frame structure for safety
+                      aspects.
                     </div>
                   </div>
                 </div>
                 <div
-                  class="col wow bounceInUp"
+                  class="card wow fadeInUp"
                   data-wow-duration="2s"
                   data-wow-delay="1s"
                 >
-                  <div class="service-box">
-                    <div class="media">
-                      <img src="imgs/services/decoration-design.jpg" alt="" />
-                    </div>
-                    <div class="info">
-                      <h4 class="title">装修设计</h4>
+                  <div class="card-header" id="heading5">
+                    <a
+                      href="javascript:void(0)"
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq5"
+                      aria-expanded="false"
+                      aria-controls="faq5"
+                      data-image-bx="Capmap3"
+                    >
+                      Kitchen
+                    </a>
+                  </div>
+                  <div
+                    id="faq5"
+                    class="collapse faq-content"
+                    aria-labelledby="heading5"
+                    data-parent="#faqSpecifications"
+                  >
+                    <div class="card-body">
+                      earthquake resistant r.c.c frame structure for safety
+                      aspects.
                     </div>
                   </div>
                 </div>
+                <div
+                  class="card wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay="1.2s"
+                >
+                  <div class="card-header" id="heading6">
+                    <a
+                      href="javascript:void(0)"
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq6"
+                      aria-expanded="false"
+                      aria-controls="faq6"
+                      data-image-bx="Capmap2"
+                    >
+                      Electrification
+                    </a>
+                  </div>
+                  <div
+                    id="faq6"
+                    class="collapse faq-content"
+                    aria-labelledby="heading6"
+                    data-parent="#faqSpecifications"
+                  >
+                    <div class="card-body">
+                      earthquake resistant r.c.c frame structure for safety
+                      aspects.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="card wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay="1.4s"
+                >
+                  <div class="card-header" id="heading7">
+                    <a
+                      href="javascript:void(0)"
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq7"
+                      aria-expanded="false"
+                      aria-controls="faq7"
+                      data-image-bx="Capmap1"
+                    >
+                      Interior Finish
+                    </a>
+                  </div>
+                  <div
+                    id="faq7"
+                    class="collapse faq-content"
+                    aria-labelledby="heading7"
+                    data-parent="#faqSpecifications"
+                  >
+                    <div class="card-body">
+                      earthquake resistant r.c.c frame structure for safety
+                      aspects.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="card wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay="1.6s"
+                >
+                  <div class="card-header" id="heading8">
+                    <a
+                      href="javascript:void(0)"
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq8"
+                      aria-expanded="false"
+                      aria-controls="faq8"
+                      data-image-bx="Capmap3"
+                    >
+                      Bathrooms & Plumning
+                    </a>
+                  </div>
+                  <div
+                    id="faq8"
+                    class="collapse faq-content"
+                    aria-labelledby="heading8"
+                    data-parent="#faqSpecifications"
+                  >
+                    <div class="card-body">
+                      earthquake resistant r.c.c frame structure for safety
+                      aspects.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="card wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay="1.8s"
+                >
+                  <div class="card-header" id="heading9">
+                    <a
+                      href="javascript:void(0)"
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq9"
+                      aria-expanded="false"
+                      aria-controls="faq9"
+                      data-image-bx="Capmap1"
+                    >
+                      Water Supply
+                    </a>
+                  </div>
+                  <div
+                    id="faq9"
+                    class="collapse faq-content"
+                    aria-labelledby="heading9"
+                    data-parent="#faqSpecifications"
+                  >
+                    <div class="card-body">
+                      earthquake resistant r.c.c frame structure for safety
+                      aspects.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="card wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay="2s"
+                >
+                  <div class="card-header" id="heading10">
+                    <a
+                      href="javascript:void(0)"
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq10"
+                      aria-expanded="false"
+                      aria-controls="faq10"
+                      data-image-bx="Capmap3"
+                    >
+                      Window
+                    </a>
+                  </div>
+                  <div
+                    id="faq10"
+                    class="collapse faq-content"
+                    aria-labelledby="heading10"
+                    data-parent="#faqSpecifications"
+                  >
+                    <div class="card-body">
+                      earthquake resistant r.c.c frame structure for safety
+                      aspects.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="content-inner about-box"
+          data-content="ABOUT US"
+          id="aboutUs"
+        >
+          <div class="about-bg"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 col-lg-6">
+                <div class="section-head">
+                  <h2
+                    class="title wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay="0.2s"
+                  >
+                    Projects Overview
+                  </h2>
+                  <div
+                    class="dlab-separator bg-primary wow fadeInUp"
+                    data-wow-duration="4s"
+                    data-wow-delay="0.2s"
+                  ></div>
+                  <h4
+                    class="mb-4 wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay="0.6s"
+                  >
+                    SEE WHY OUR RESIDENTS CALL OUR COMMUNITY HOME.
+                  </h4>
+                  <p
+                    class="wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay="0.8s"
+                  >
+                    Surround yourself with fresh energy, high-tech amenities,
+                    and elevated style. Indulge in extraordinary amenities,
+                    relax in appealing social spaces, and cultivate your ideal
+                    life. We're the fresh look in this historic district - a
+                    vibrant new community for movers and shakers.
+                  </p>
+                  <p
+                    class="wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay="1s"
+                  >
+                    A bold new life awaits you at KingArchitect, a brand new
+                    community of apartment homes situated at the cutting edge of
+                    modern design. Residents of KingArchitect enjoy luxury
+                    living with a sparkling swimming pool, fitness center and
+                    indoor game, parking garage and temple. Discover a
+                    KingArchitect from our convenient location. Nothing quite
+                    complements a comfortable, stylish home like an array of
+                    luxury amenities.
+                  </p>
+                </div>
+                <a
+                  href="about-us-1.html"
+                  class="btn btn-primary wow fadeInUp"
+                  data-wow-duration="2s"
+                  data-wow-delay="1.2s"
+                  >About Us</a
+                >
+              </div>
+              <div class="col-md-5 col-lg-6"></div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="content-inner"
+          data-content="MASTER PLAN"
+          id="masterPlan"
+        >
+          <div class="setResizeMargin master-plan">
+            <div class="row">
+              <div class="col-md-12 col-lg-6">
+                <div class="section-head">
+                  <h2
+                    class="title wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay="0.2s"
+                  >
+                    SITE PLAN & MASTER PLAN
+                  </h2>
+                  <div class="dlab-separator bg-primary"></div>
+                  <p
+                    class="wow fadeInUp"
+                    data-wow-duration="2s"
+                    data-wow-delay="0.5s"
+                  >
+                    With premium finishes and wide-open spaces, each floor plan
+                    brings you unparalleled luxury without sacrificing on
+                    comfort. Floor plans are artist’s rendering. All dimensions
+                    are approximate.
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <ul
+                      class="nav plan-tabs wow fadeInLeft"
+                      data-wow-duration="2s"
+                      data-wow-delay="0.5s"
+                      id="myTab"
+                      role="tablist"
+                    >
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link active"
+                          id="main-tab"
+                          data-toggle="tab"
+                          href="#main"
+                          role="tab"
+                          aria-controls="main"
+                          aria-selected="true"
+                          >40’ x 90’ East</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="profile-tab"
+                          data-toggle="tab"
+                          href="#profile"
+                          role="tab"
+                          aria-controls="profile"
+                          aria-selected="false"
+                          >35’ x 70’ East</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="contact-tab"
+                          data-toggle="tab"
+                          href="#contact"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >35’ x 70, West</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="contact-tab2"
+                          data-toggle="tab"
+                          href="#contact"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >Master Plan
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="contact-tab3"
+                          data-toggle="tab"
+                          href="#contact"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >50’ x 100’ East</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="contact-tab4"
+                          data-toggle="tab"
+                          href="#contact"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >40’ x 70’ East</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="contact-tab5"
+                          data-toggle="tab"
+                          href="#contact"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >40’ x 70’ East</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="contact-tab6"
+                          data-toggle="tab"
+                          href="#contact"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >40’ x 70’ East</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="contact-tab7"
+                          data-toggle="tab"
+                          href="#contact"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >40’ x 70’ East</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-8 col-sm-8">
+                    <div
+                      class="plan-contant wow fadeInRight"
+                      data-wow-duration="2s"
+                      data-wow-delay="0.5s"
+                    >
+                      <div class="section-head">
+                        <h2 class="title">39.7 Lac</h2>
+                        <h4 class="mb-lg-2 mb-xl-4">
+                          2 BHK Type-1 Unit Plan, SBUA = 1280.87 SQ.FT
+                        </h4>
+                        <p>
+                          USP: Reduced energy usage and costs, Reduced water
+                          usage through low flow fixtures, Improved indoor air
+                          quality through the usage of low - VOC paints,
+                          adhesives and eco-friendly chemicals
+                        </p>
+                      </div>
+                      <ul class="flat-plan">
+                        <li>
+                          <img src="images/icons/icon-1.png" alt="" />
+                          <h3>1814.73</h3>
+                          <span>Square Feet</span>
+                        </li>
+                        <li>
+                          <img src="images/icons/icon-2.png" alt="" />
+                          <h3>02</h3>
+                          <span>Bathrooms</span>
+                        </li>
+                        <li>
+                          <img src="images/icons/icon-3.png" alt="" />
+                          <h3>03</h3>
+                          <span>Bedrooms</span>
+                        </li>
+                        <li>
+                          <img src="images/icons/icon-4.png" alt="" />
+                          <h3>01</h3>
+                          <span>Balcony</span>
+                        </li>
+                      </ul>
+                      <a href="#" class="call-planner"
+                        ><i class="la la-phone-volume"></i>0800-123456</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-6">
+                <div
+                  class="tab-content plan-preview wow fadeInRight"
+                  data-wow-duration="2s"
+                  data-wow-delay="0.5s"
+                  id="myTabContent"
+                >
+                  <div
+                    class="tab-pane fade show active"
+                    id="main"
+                    role="tabpanel"
+                    aria-labelledby="main-tab"
+                  >
+                    <img src="images/plan/pic1.jpg" alt="" />
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="profile"
+                    role="tabpanel"
+                    aria-labelledby="profile-tab"
+                  >
+                    <img src="images/plan/pic1.jpg" alt="" />
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="contact"
+                    role="tabpanel"
+                    aria-labelledby="contact-tab"
+                  >
+                    <img src="images/plan/pic1.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="mainGallery">
+          <div
+            class="main-gallery wow fadeIn"
+            data-wow-duration="2s"
+            data-wow-delay="0.5s"
+          >
+            <div class="gallery-img">
+              <img
+                src="imgs/index/about-slider2.jpg"
+                id="structureOne"
+                class="active"
+                alt=""
+              />
+              <img
+                src="imgs/index/about-slider3.jpg"
+                id="structureTow"
+                alt=""
+              />
+              <img src="images/gallery/main3.jpg" id="kitchenOne" alt="" />
+              <img src="images/gallery/main4.jpg" id="kitchenTow" alt="" />
+              <img src="images/gallery/main5.jpg" id="kitchenThree" alt="" />
+              <img src="images/gallery/main6.jpg" id="interiorOne" alt="" />
+            </div>
+            <div class="gallery-area">
+              <div class="gallery-category">
+                <div class="category-box">
+                  <div class="media">
+                    <img src="images/gallery/pic1.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3 class="title">Structure</h3>
+                    <span><i class="las la-image"></i> 07</span>
+                  </div>
+                </div>
+                <div class="category-media">
+                  <div class="items" data-image-bx="structureOne">
+                    <div class="media">
+                      <img src="images/gallery/pic1.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="items" data-image-bx="structureTow">
+                    <div class="media">
+                      <img src="images/gallery/pic2.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-category">
+                <div class="category-box">
+                  <div class="media">
+                    <img src="images/gallery/pic2.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3 class="title">Kitchen</h3>
+                    <span><i class="las la-image"></i> 07</span>
+                  </div>
+                </div>
+                <div class="category-media">
+                  <div class="items" data-image-bx="kitchenOne">
+                    <div class="media">
+                      <img src="images/gallery/pic3.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="items" data-image-bx="kitchenTow">
+                    <div class="media">
+                      <img src="images/gallery/pic4.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="items" data-image-bx="kitchenThree">
+                    <div class="media">
+                      <img src="images/gallery/pic5.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-category">
+                <div class="category-box">
+                  <div class="media">
+                    <img src="images/gallery/pic3.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3 class="title">Interior Finish</h3>
+                    <span><i class="las la-image"></i> 07</span>
+                  </div>
+                </div>
+                <div class="category-media">
+                  <div class="items" data-image-bx="interiorOne">
+                    <div class="media">
+                      <img src="images/gallery/pic6.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-category">
+                <div class="category-box">
+                  <div class="media">
+                    <img src="images/gallery/pic4.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3 class="title">bedroom interior</h3>
+                    <span><i class="las la-image"></i> 07</span>
+                  </div>
+                </div>
+                <div class="category-media">
+                  <div class="items" data-image-bx="interiorOne">
+                    <div class="media">
+                      <img src="images/gallery/pic6.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="items" data-image-bx="kitchenOne">
+                    <div class="media">
+                      <img src="images/gallery/pic3.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="items" data-image-bx="kitchenTow">
+                    <div class="media">
+                      <img src="images/gallery/pic4.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="items" data-image-bx="interiorOne">
+                    <div class="media">
+                      <img src="images/gallery/pic6.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-category">
+                <div class="category-box">
+                  <div class="media">
+                    <img src="images/gallery/pic5.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3 class="title">Window</h3>
+                    <span><i class="las la-image"></i> 07</span>
+                  </div>
+                </div>
+                <div class="category-media">
+                  <div class="items" data-image-bx="interiorOne">
+                    <div class="media">
+                      <img src="images/gallery/pic6.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="items" data-image-bx="kitchenTow">
+                    <div class="media">
+                      <img src="images/gallery/pic4.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="content-inner-2"
+          data-content="SERVICES"
+          id="ourServices"
+        >
+          <div class="container">
+            <div
+              class="row align-items-end section-head wow fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.5s"
+            >
+              <div class="col-md-6">
+                <h2 class="title">服务项目</h2>
+                <div class="dlab-separator bg-primary"></div>
+                <!-- <p class="mb-3 mb-md-0">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p> -->
+              </div>
+              <div class="col-md-6 text-md-right">
+                <a href="./services.html" class="btn btn-primary">查看所有</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-area"
+            style="background-image: url(images/gallery/main1.jpg)"
+          >
+            <div class="row spno service-row">
+              <div
+                class="col wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.2s"
+              >
+                <div class="service-box">
+                  <div class="media">
+                    <img src="imgs/index/service/" alt="" />
+                  </div>
+                  <div class="info">
+                    <h4 class="title">24 HRS. Water Supply</h4>
+                    <p>
+                      The KingArchitect is a collection of grand proportioned.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-                <div
-                  class="col wow bounceInUp"
-                  data-wow-duration="2s"
-                  data-wow-delay="0.2s"
+              <div
+                class="col wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.4s"
+              >
+                <div class="service-box">
+                  <div class="media">
+                    <img src="images/services/pic2.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h4 class="title">CCTV With Intercom</h4>
+                    <p>
+                      The KingArchitect is a collection of grand proportioned.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
+                <div class="service-box">
+                  <div class="media">
+                    <img src="images/services/pic3.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h4 class="title">Power Backup</h4>
+                    <p>
+                      The KingArchitect is a collection of grand proportioned.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.8s"
+              >
+                <div class="service-box">
+                  <div class="media">
+                    <img src="images/services/pic4.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h4 class="title">DTH Facilitiy</h4>
+                    <p>
+                      The KingArchitect is a collection of grand proportioned.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="1s"
+              >
+                <div class="service-box">
+                  <div class="media">
+                    <img src="images/services/pic5.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h4 class="title">Rain Water Harvesting</h4>
+                    <p>
+                      The KingArchitect is a collection of grand proportioned.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.2s"
+              >
+                <div class="service-box">
+                  <div class="media">
+                    <img src="images/services/pic6.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h4 class="title">Fully Automatic Lifts</h4>
+                    <p>
+                      The KingArchitect is a collection of grand proportioned.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.4s"
+              >
+                <div class="service-box">
+                  <div class="media">
+                    <img src="images/services/pic7.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h4 class="title">Allotted Parking</h4>
+                    <p>
+                      The KingArchitect is a collection of grand proportioned.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
+                <div class="service-box">
+                  <div class="media">
+                    <img src="images/services/pic8.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h4 class="title">Fire Fighting System</h4>
+                    <p>
+                      The KingArchitect is a collection of grand proportioned.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.8s"
+              >
+                <div class="service-box">
+                  <div class="media">
+                    <img src="images/services/pic9.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h4 class="title">Security</h4>
+                    <p>
+                      The KingArchitect is a collection of grand proportioned.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="1s"
+              >
+                <div class="service-box">
+                  <div class="media">
+                    <img src="images/services/pic10.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h4 class="title">Tow Level Parking</h4>
+                    <p>
+                      The KingArchitect is a collection of grand proportioned.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="content-inner-2"
+          data-content="NEWS & EVENT"
+          id="newsEvent"
+        >
+          <div class="container">
+            <div
+              class="row align-items-end section-head wow bounceInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.2s"
+            >
+              <div class="col-md-6">
+                <h2 class="title">News & event</h2>
+                <div class="dlab-separator bg-primary"></div>
+                <p class="mb-3 mb-md-0">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p>
+              </div>
+              <div class="col-md-6 text-md-right">
+                <a href="blog-grid.html" class="btn btn-primary"
+                  >View All Post</a
                 >
-                  <div class="service-box">
-                    <div class="media">
-                      <img src="imgs/services/outdoor-gardening.jpg" alt="" />
+              </div>
+            </div>
+            <div
+              class="blog-carousel owl-carousel owl-btn-center-lr owl-btn-out"
+            >
+              <div
+                class="items wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.2s"
+              >
+                <div class="dlab-card blog-grid">
+                  <div class="dlab-media">
+                    <img src="images/blog/blog-grid/pic1.jpg" alt="" />
+                  </div>
+                  <div class="dlab-info">
+                    <div class="dlab-meta">
+                      <ul>
+                        <li class="post-date">
+                          <i class="las la-calendar-alt"></i
+                          ><span>March 29, 2020</span>
+                        </li>
+                        <li class="post-user">
+                          <i class="las la-user"></i>By
+                          <a href="#">Deo Admin</a>
+                        </li>
+                      </ul>
                     </div>
-                    <div class="info">
-                      <h4 class="title">户外园艺</h4>
+                    <h3 class="dlab-title">
+                      <a href="blog-details.html"
+                        >How Roofing Charge for Their Services Asking the Right
+                        Questions</a
+                      >
+                    </h3>
+                    <p>
+                      The goal of this new editor is to make adding rich content
+                      to WordPress simple and enjoyable.
+                    </p>
+                    <div class="dlab-readmore">
+                      <a href="blog-details.html" class="readmore"
+                        ><i class="las la-plus"></i> Read More</a
+                      >
                     </div>
                   </div>
                 </div>
-                <div
-                  class="col wow bounceInUp"
-                  data-wow-duration="2s"
-                  data-wow-delay="0.4s"
-                >
-                  <div class="service-box">
-                    <div class="media">
-                      <img src="imgs/services/paint-stucco.png" alt="" />
+              </div>
+              <div
+                class="items wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
+                <div class="dlab-card blog-grid">
+                  <div class="dlab-media">
+                    <img src="images/blog/blog-grid/pic2.jpg" alt="" />
+                  </div>
+                  <div class="dlab-info">
+                    <div class="dlab-meta">
+                      <ul>
+                        <li class="post-date">
+                          <i class="las la-calendar-alt"></i
+                          ><span>March 29, 2020</span>
+                        </li>
+                        <li class="post-user">
+                          <i class="las la-user"></i>By
+                          <a href="#">Deo Admin</a>
+                        </li>
+                      </ul>
                     </div>
-                    <div class="info">
-                      <h4 class="title">油漆粉刷</h4>
+                    <h3 class="dlab-title">
+                      <a href="blog-details.html"
+                        >How Roofing Charge for Their Services Asking the Right
+                        Questions</a
+                      >
+                    </h3>
+                    <p>
+                      The goal of this new editor is to make adding rich content
+                      to WordPress simple and enjoyable.
+                    </p>
+                    <div class="dlab-readmore">
+                      <a href="blog-details.html" class="readmore"
+                        ><i class="las la-plus"></i> Read More</a
+                      >
                     </div>
                   </div>
                 </div>
-                <div
-                  class="col wow bounceInUp"
-                  data-wow-duration="2s"
-                  data-wow-delay="0.6s"
-                >
-                  <div class="service-box">
-                    <div class="media">
-                      <img src="imgs/services/basement-decoration.jpg" alt="" />
-                    </div>
-                    <div class="info">
-                      <h4 class="title">地下装潢</h4>
-                    </div>
+              </div>
+              <div
+                class="items wow bounceInUp"
+                data-wow-duration="2s"
+                data-wow-delay="1s"
+              >
+                <div class="dlab-card blog-grid">
+                  <div class="dlab-media">
+                    <img src="images/blog/blog-grid/pic3.jpg" alt="" />
                   </div>
-                </div>
-                <div
-                  class="col wow bounceInUp"
-                  data-wow-duration="2s"
-                  data-wow-delay="0.8s"
-                >
-                  <div class="service-box">
-                    <div class="media">
-                      <img
-                        src="imgs/services/fenced-terrace-decoration.jpg"
-                        alt=""
-                      />
+                  <div class="dlab-info">
+                    <div class="dlab-meta">
+                      <ul>
+                        <li class="post-date">
+                          <i class="las la-calendar-alt"></i
+                          ><span>March 29, 2020</span>
+                        </li>
+                        <li class="post-user">
+                          <i class="las la-user"></i>By
+                          <a href="#">Deo Admin</a>
+                        </li>
+                      </ul>
                     </div>
-                    <div class="info">
-                      <h4 class="title">围栏露台</h4>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col wow bounceInUp"
-                  data-wow-duration="2s"
-                  data-wow-delay="1s"
-                >
-                  <div class="service-box">
-                    <div class="media">
-                      <img src="imgs/services/housing-additions.jpg" alt="" />
-                    </div>
-                    <div class="info">
-                      <h4 class="title">房屋增建</h4>
+                    <h3 class="dlab-title">
+                      <a href="blog-details.html"
+                        >How Roofing Charge for Their Services Asking the Right
+                        Questions</a
+                      >
+                    </h3>
+                    <p>
+                      The goal of this new editor is to make adding rich content
+                      to WordPress simple and enjoyable.
+                    </p>
+                    <div class="dlab-readmore">
+                      <a href="blog-details.html" class="readmore"
+                        ><i class="las la-plus"></i> Read More</a
+                      >
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-          <!-- Our Partners -->
-          <section class="content-inner-1" data-content="PARTNERS">
-            <div class="container">
-              <div class="section-head text-center">
-                <!-- <p>我们的合作伙伴</p> -->
-                <h2 class="title">我们的合作伙伴</h2>
-              </div>
-              <div class="client-logo owl-carousel owl-none">
-                <div class="item">
-                  <div class="client-logo-inner">
-                    <img alt="" src="imgs/partners/home-depot.jpg" />
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="client-logo-inner">
-                    <img alt="" src="imgs/partners/houzz.jpg" />
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="client-logo-inner">
-                    <img alt="" src="imgs/partners/Ikea.jpg" />
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="client-logo-inner">
-                    <img alt="" src="imgs/partners/lowes.jpg" />
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="client-logo-inner">
-                    <img alt="" src="imgs/partners/rona.jpg" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Our Partners END -->
-        </div>
+          </div>
+        </section>
       </div>
-      <!-- Content END-->
-
       <!-- Footer -->
       <footer class="site-footer" id="footer">
         <div class="footer-top">
@@ -1734,10 +1943,11 @@
                     /></a>
                   </div>
                   <p>
-                    新旭装潢团队是多伦多本地专业房屋装修团队，拥有多年丰富的房屋设计以及装潢经验。新旭秉承着细心,
-                    高效, 负责的态度，为客户们提供多元化，多样化的装潢计划。
+                    Surround yourself with fresh energy, high-tech amenities,
+                    and elevated style. Indulge in extraordinary amenities,
+                    relax in appealing social spaces.
                   </p>
-                  <!-- <div class="dlab-social-icon">
+                  <div class="dlab-social-icon">
                     <ul>
                       <li>
                         <a
@@ -1761,7 +1971,7 @@
                         ></a>
                       </li>
                     </ul>
-                  </div> -->
+                  </div>
                 </div>
               </div>
               <div
@@ -1770,24 +1980,20 @@
                 data-wow-delay="0.6s"
               >
                 <div class="widget">
-                  <h5 class="footer-title">联系我们</h5>
+                  <h5 class="footer-title">Contact Us</h5>
                   <ul class="contact-info-bx">
-                    <!-- <li>
+                    <li>
                       <i class="las la-map-marker"></i
                       ><strong>Address</strong> 1st Floor, 123 West Street,
                       Melbourne Victoria 3000 Australia
-                    </li> -->
-                    <li>
-                      <i class="las la-phone-volume"></i
-                      ><strong>电话(中文) :</strong> 647-996-5766
                     </li>
                     <li>
                       <i class="las la-phone-volume"></i
-                      ><strong>电话(English) :</strong> 647-988-3576
+                      ><strong>Call :-</strong> 0800-123456
                     </li>
                     <li>
-                      <i class="las la-envelope"></i
-                      ><strong>Email :</strong> newasahiinc@gmail.com
+                      <i class="las la-phone-square-alt"></i
+                      ><strong>Board line :-</strong> 0123-4567890
                     </li>
                   </ul>
                 </div>
@@ -1798,11 +2004,29 @@
                 data-wow-delay="0.9s"
               >
                 <div class="widget widget-logo">
-                  <h5 class="footer-title">客户服务</h5>
-                  <div class="wechat-wrap">
-                    <img src="./imgs/icon/weixin.png" alt="" />
-                    <img src="./imgs/qrcode.png" alt="" />
-                  </div>
+                  <h5 class="footer-title">Our Business Channels</h5>
+                  <ul>
+                    <li>
+                      <a href="javascript:void(0);"
+                        ><img src="images/logo/logo1.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);"
+                        ><img src="images/logo/logo2.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);"
+                        ><img src="images/logo/logo3.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);"
+                        ><img src="images/logo/logo4.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -1813,14 +2037,17 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-sm-12 text-md-left text-center">
-                <span>© 2021 Newasahi Renovation. All Right Reserved</span>
+                <span
+                  >© 2020 DexignZone. All Right
+                  <a href="http://www.bootstrapmb.com/">Reserved</a></span
+                >
               </div>
               <div class="col-md-6 col-sm-12 text-md-right text-center">
                 <div class="widget-link">
                   <ul>
-                    <li><a href="about-us-2.html"> 关于我们</a></li>
-                    <li><a href="contact-us-1.html">联系我们</a></li>
-                    <!-- <li><a href="privacy-policy.html"> Privacy Policy</a></li> -->
+                    <li><a href="about-us-1.html"> About</a></li>
+                    <li><a href="contact-us-1.html"> Contact Us</a></li>
+                    <li><a href="privacy-policy.html"> Privacy Policy</a></li>
                   </ul>
                 </div>
               </div>
@@ -1830,6 +2057,7 @@
       </footer>
       <!-- Footer END-->
     </div>
+
     <!-- JAVASCRIPT FILES ========================================= -->
     <script src="js/jquery.min.js"></script>
     <!-- JQUERY.MIN JS -->
@@ -1861,8 +2089,7 @@
     <!-- OWL-CAROUSEL -->
     <script src="js/custom.js"></script>
     <!-- CUSTOM JS -->
-    <script src="js/main.js"></script>
-    <!-- CUSTOM JS -->
+
     <!-- REVOLUTION JS FILES -->
     <script src="vendor/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="vendor/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
@@ -1879,7 +2106,7 @@
     <script>
       jQuery(document).ready(function () {
         'use strict'
-        dz_rev_slider_3()
+        dz_rev_slider_1()
       }) /*ready*/
     </script>
   </body>
