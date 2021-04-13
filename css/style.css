@@ -12879,7 +12879,7 @@ label.error {
       background: transparent; }
 
 .about-box .about-bg {
-  background-image: url(../images/about/about.png);
+  background-image: url(../imgs/index/about/about-right.jpg);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 62%;
@@ -12905,7 +12905,7 @@ label.error {
   z-index: 1; }
 .about-box::before {
   content: "";
-  background-image: url(../images/about/about1.png);
+  background-image: url(../imgs/index/about/about-left.png);
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 17%;
