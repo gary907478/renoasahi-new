@@ -1,0 +1,606 @@
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #a46220;
+  --primary-light: #d6934f;
+  --secondary: #673bb7;
+  --success: #10d876;
+  --info: #2754e6;
+  --warning: #fe9431;
+  --danger: #e50202;
+  --light: #faf8f2;
+  --dark: #262f5a;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1440;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+}
+.bg-gray {
+  background-color: rgba(255,255,255,0);
+  width: 100%;
+}
+.service-container {
+  max-width: 1200px;
+  width: 80vw;
+  height: auto;
+  margin: auto;
+}
+.service-container h1{
+  font-weight: 300;
+  margin-top: 20px;
+}
+/* ---------------- SERVICE INFO ROW ONE ---------------- */
+
+.service-info-row {
+  display: flex;
+  align-items: center;
+}
+.service-info-box {
+  max-width: 40%;
+  padding-right: 80px;
+}
+.service-info-box small {
+  margin-bottom: 30px;
+}
+.service-info-box h1 {
+  margin: 30px auto;
+}
+.service-imgs-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'img-big img-big'
+    'img-small btn';
+}
+.service-img-big {
+  grid-area: img-big;
+}
+.service-img-small {
+  grid-area: img-small;
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+  object-position: top;
+}
+.service-btn {
+  grid-area: btn;
+  background-color: var(--primary);
+  height: 80px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+.service-btn h3{
+  margin: 0;
+}
+.service-btn img{
+  width: 25px;
+}
+
+/* ----------------- service page ROW 2 ----------------- */
+
+.service-info-row2 {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.service-info-box2 {
+  width: 40%;
+}
+.service-imgs-box2 {
+  display: flex;
+  align-items: center;
+}
+.service-imgs-box2 img {
+  max-width: 330px;
+  /* padding-bottom: 20px; */
+  /* margin-bottom: 20px; */
+  /* margin-right: 50px; */
+}
+.service-imgs-box2 div {
+  max-width: 400px;
+}
+.service-info-box2 h1 {
+  margin: 30px auto;
+}
+.two-one-one{
+  margin: auto 20px;
+}
+.item-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.item-list li{
+  list-style: disc;
+  list-style-position: inside;
+}
+/* ----------------- SERVICE INFO ROW 3 ----------------- */
+
+.service-info-row3{
+  padding-bottom: 100px;
+}
+.service-info-box3 {
+  display: flex;
+  padding: 150px 0;
+}
+.service-box3-info-box{
+  display: flex;
+  overflow: hidden;
+}
+.contact-box {
+  width: 40%;
+  height: 400px;
+  align-self: flex-end;
+}
+.contact-box a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-box a > span{
+font-size: 16px;
+}
+.contact-box a > img{
+  width: 25px;
+  margin: 0;
+  margin-left: 10px;
+}
+.img-box {
+  width: 500px;
+  margin-right: 80px;
+  height: 500px;
+}
+.service-info-box3 {
+  overflow: hidden;
+}
+.service-info-box3 .img-box {
+
+  /* background-image: url('/imgs/services/general2.jpg'); */
+  background-image: linear-gradient(
+      90deg,
+      #ffffff 8%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url('/imgs/services/general2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: all 0.4s ease;
+
+
+}
+.service-info-box3 .img-box:hover {
+  transform: scale(1.05);
+  /* -webkit-transform: scale(1.05); */
+ 
+}
+.contact-box {
+  background-color: #181b20;
+  padding: 40px;
+}
+.contact-box img{
+  margin-bottom: 30px;
+}
+.contact-box hr{
+  border-top: 1px solid rgba(204, 204, 204, 0.322);
+}
+.contact-box a{
+  float:right;
+  color:#fff;
+  font-size: 14px;
+}
+.contact-box a:hover{
+  float:right;
+  color:#fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.contact-box p {
+  color: #fff;
+}
+.cost-row{
+  display: flex;
+  justify-content: space-between;
+}
+.cost-row h2{
+  font-size: 60px;
+  font-weight: 300;
+}
+
+/* --------------------- Point Style -------------------- */
+.point-wrap{
+margin: 80px auto;
+}
+.point__title{
+  max-width: 350px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.point__title span{
+  font-size: 16px;
+  color:#000;
+}
+.point__icon{
+  width: 30px;
+  margin-right: 10px;
+  font-size: 1.3em;
+}
+.fas{
+  width: 30px;
+  margin-right: 10px;
+  font-size: 1.3em;
+}
+
+/* ------------------ Images Animation ------------------ */
+.img-zoom-wrap{
+  overflow: hidden;
+
+}
+.img-zoom{
+  overflow: hidden;
+  transition: opacity 1s,transform 1s;
+}
+
+.img-zoom:hover {
+/* transform: scale(1.05); */
+opacity: .9;
+transform: scale3d(1.1,1.1,1);
+}
+
+/* ------------------------------------------------------ */
+/*                      Laptop Style                      */
+/* ------------------------------------------------------ */
+@media all and (max-width:1024px){
+
+/* ---------------- SERVICE INFO ROW ONE ---------------- */
+.service-info-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-info-box {
+  max-width: 100%;
+  padding-right: 0px;
+  text-align: center;
+  margin-top: 30px;
+}
+.service-info-box small {
+  margin-bottom: 30px;
+}
+.service-info-box h1 {
+  margin: 30px auto;
+}
+.service-imgs-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'img-big img-big'
+    'img-small btn'
+   ;
+}
+/* ----------------- service page ROW 2 ----------------- */
+
+.service-info-row2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+}
+.service-info-box2 {
+  width: 100%;
+  margin-top: 50px;
+}
+.service-imgs-box2 {
+  display: flex;
+  align-items: center;
+}
+.service-imgs-box2 img {
+  max-width: 330px;
+  /* padding-bottom: 20px; */
+  /* margin-bottom: 20px; */
+  /* margin-right: 50px; */
+}
+.service-imgs-box2 div {
+  max-width: 400px;
+}
+.service-info-box2 h1 {
+  margin: 30px auto;
+}
+.two-one-one{
+  margin: auto 20px;
+}
+/* ----------------- SERVICE INFO ROW 3 ----------------- */
+
+.service-info-row3{
+  padding-bottom: 100px;
+}
+.service-info-box3 {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+}
+.contact-box {
+  width: 100%;
+  height: 400px;
+  align-self: flex-end;
+}
+.img-box {
+  width: 500px;
+  margin-right: 0px;
+  height: 500px;
+}
+.service-info-box3 .img-box {
+  background-image: url(https://www.hooger.ca/wp-content/uploads/2020/01/large-project-intro-scaled-1.jpg);
+  background-image: linear-gradient(
+      90deg,
+      #ffffff 8%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    url(https://www.hooger.ca/wp-content/uploads/2020/01/large-project-intro-scaled-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: all 0.4s ease;
+
+}
+.service-info-box3 .img-box:hover {
+  transform: scale(1.05);
+  /* -webkit-transform: scale(1.05); */
+}
+.contact-box {
+  background-color: #000;
+  padding: 40px;
+  margin-top: 30px;
+}
+.contact-box img{
+  margin-bottom: 30px;
+}
+.contact-box hr{
+  border-top: 1px solid rgba(204, 204, 204, 0.322);
+}
+.contact-box a{
+  float:right;
+  color:#fff;
+  font-size: 14px;
+}
+.contact-box a:hover{
+  float:right;
+  color:#fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.contact-box p {
+  color: #fff;
+}
+.cost-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cost-row h2{
+  font-size: 60px;
+  font-weight: 300;
+}
+
+/* --------------------- Point Style -------------------- */
+.point-wrap{
+  margin: 80px auto;
+
+  }
+  .point__title{
+    max-width: 350px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+  }
+  .point__title span{
+    font-size: 16px;
+    color:#000;
+  }
+  .point__icon{
+    width: 30px;
+    margin-right: 10px;
+  }
+}
+/* ------------------------------------------------------ */
+/*                      Mobile Style                      */
+/* ------------------------------------------------------ */
+@media all and (max-width:768px){
+  .service-container h1{
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 35px;
+  }
+  /* ---------------- SERVICE INFO ROW ONE ---------------- */
+  .service-info-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-info-box {
+    max-width: 100%;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .service-info-box small {
+    margin-bottom: 30px;
+  }
+  .service-info-box h1 {
+    margin: 30px auto;
+  }
+  .service-imgs-box {
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-areas:
+      'img-big'
+      'img-small'
+      'btn'
+     ;
+  }
+  /* ----------------- service page ROW 2 ----------------- */
+  
+  .service-info-row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto 0;
+  }
+  .service-info-box2 {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .service-imgs-box2 {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  .service-imgs-box2 img {
+    max-width: 100%;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 20px; */
+    /* margin-right: 50px; */
+  }
+  .service-imgs-box2 div {
+    max-width: 100%;
+  }
+  .service-info-box2 h1 {
+    margin: 30px auto;
+  }
+  .two-one-one{
+    margin: 0px 20px;
+  }
+  /* ----------------- SERVICE INFO ROW 3 ----------------- */
+  
+  .service-info-row3{
+    padding-bottom: 100px;
+  }
+  .service-info-box3 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .service-box3-info-box{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .title-box{
+    margin-bottom: 20px;
+  }
+  .contact-box {
+    width: 100%;
+    height: 400px;
+    align-self: flex-end;
+  }
+  .img-box {
+    width: 500px;
+    margin-right: 0px;
+    height: 500px;
+  }
+  .service-info-box3 .img-box {
+    background-image: url(https://www.hooger.ca/wp-content/uploads/2020/01/large-project-intro-scaled-1.jpg);
+    background-image: linear-gradient(
+        90deg,
+        #ffffff 8%,
+        rgba(255, 255, 255, 0) 50%
+      ),
+      url(https://www.hooger.ca/wp-content/uploads/2020/01/large-project-intro-scaled-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: all 0.4s ease;
+  
+  }
+  .service-info-box3 .img-box:hover {
+    transform: scale(1.05);
+    /* -webkit-transform: scale(1.05); */
+  }
+  .contact-box {
+    background-color: #000;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .contact-box img{
+    margin-bottom: 30px;
+  }
+  .contact-box hr{
+    border-top: 1px solid rgba(204, 204, 204, 0.322);
+  }
+  .contact-box a{
+    float:right;
+    color:#fff;
+    font-size: 14px;
+  }
+  .contact-box a:hover{
+    float:right;
+    color:#fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .contact-box p {
+    color: #fff;
+  }
+  .cost-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cost-row h2{
+    font-size: 60px;
+    font-weight: 300;
+  }
+  
+  /* --------------------- Point Style -------------------- */
+  .point-wrap{
+    margin: 80px auto;
+  
+    }
+    .point__title{
+      max-width: 350px;
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+      border-bottom: 1px solid rgb(212, 212, 212);
+    }
+    .point__title span{
+      font-size: 16px;
+      color:#000;
+    }
+    .point__icon{
+      width: 30px;
+      margin-right: 10px;
+    }
+  }

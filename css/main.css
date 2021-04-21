@@ -251,3 +251,110 @@ footer .footer-bottom {
     text-align: center;
   }
 }
+
+/* ------------------------------------------------------ */
+/*                  INDEX ABOUT ROW STYLE                 */
+/* ------------------------------------------------------ */
+#index-about-us {
+  padding: 150px 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#index-about-us h1{
+  font-size: 45px;
+  font-weight: 300;
+  margin: 20px auto;
+}
+#index-about-us h2{
+  font-size: 25px;
+  font-weight: 300;
+  padding: 20px 0;
+  border-top: 1px solid var(--primary);
+}
+#index-about-us ul {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+#index-about-us li {
+  padding: 10px 20px;
+  border: 1px solid var(--primary);
+  display: flex;
+}
+#index-about-us li img{
+width: 70px;
+}
+#index-about-us li p{
+  font-size: 18px;
+  margin-left: 15px;
+}
+@media all and (max-width:1200px) {
+  #index-about-us {
+    padding: 80px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  #index-about-us h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px auto;
+  }
+  #index-about-us h2{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px 0;
+    border-top: 1px solid var(--primary);
+  }
+  #index-about-us ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  #index-about-us li img{
+    width: 40px;
+    }
+    #index-about-us li p{
+      font-size: 14px;
+      margin-left: 8px;
+      margin-bottom: 0;
+    }
+}
+@media all and (max-width:600px) {
+  #index-about-us {
+    padding: 80px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  #index-about-us h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px auto;
+  }
+  #index-about-us h2{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px 0;
+    border-top: 1px solid var(--primary);
+  }
+  #index-about-us ul {
+  margin-top: 30px;
+
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  #index-about-us li img{
+    width: 50px;
+    }
+    #index-about-us li p{
+      font-size: 16px;
+      margin-left: 8px;
+      margin-bottom: 0;
+    }
+}
