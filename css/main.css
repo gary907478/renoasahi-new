@@ -358,3 +358,19 @@ width: 70px;
       margin-bottom: 0;
     }
 }
+
+/* ------------------------------------------------------ */
+/*               Steps Style in secure.html               */
+/* ------------------------------------------------------ */
+.step-wrap{
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+
+}
+.step-wrap h6{
+  margin: 0;
+  color:#fff;
+  font-size: 28px;
+  font-weight: bold;
+}

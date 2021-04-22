@@ -10583,6 +10583,7 @@ label.error {
     height: 20px; }
 
 .icon-bx-wraper {
+  min-height:220px;
   position: relative; }
   .icon-bx-wraper .dlab-tilte {
     margin-top: 0; }
