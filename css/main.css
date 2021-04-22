@@ -351,6 +351,7 @@ width: 70px;
   }
   #index-about-us li img{
     width: 50px;
+    max-height:100px;
     }
     #index-about-us li p{
       font-size: 16px;
