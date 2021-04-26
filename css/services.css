@@ -34,8 +34,10 @@
     'Liberation Mono', 'Courier New', monospace;
 }
 .bg-gray {
-  background-color: rgba(255,255,255,0);
+  background-color: #fafafa;
   width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .service-container {
   max-width: 1200px;
@@ -64,6 +66,7 @@
   margin: 30px auto;
 }
 .service-imgs-box {
+  max-width: 60%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -94,6 +97,15 @@
 }
 .service-btn img{
   width: 25px;
+}
+.service-index-design-list{
+  margin-top: 40px;
+}
+.service-index-design-list li{
+  font-size: 18px;
+  padding: 10px 15px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin-bottom: 20px;
 }
 
 /* ----------------- service page ROW 2 ----------------- */
@@ -275,6 +287,43 @@ opacity: .9;
 transform: scale3d(1.1,1.1,1);
 }
 
+/* -------------------- 家装服务项目 Style -------------------- */
+.services-project{
+
+}
+.services-items{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  margin-top: 50px;
+
+}
+.services-items a{
+  color:#333;
+}
+.services-item{
+  position: relative;
+  background-color: #fff;
+  padding: 25px 30px;
+}
+.services-item figure{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.services-item i{
+  font-size: 2.5em;
+}
+.services-item h3{
+  font-weight: 300;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.single-big-img img{
+  width: 100%;
+  height: 100%;
+  max-width: 80%;
+}
 /* ------------------------------------------------------ */
 /*                      Laptop Style                      */
 /* ------------------------------------------------------ */
@@ -608,3 +657,5 @@ transform: scale3d(1.1,1.1,1);
       margin-right: 10px;
     }
   }
+
+

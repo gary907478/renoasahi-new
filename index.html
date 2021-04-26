@@ -30,6 +30,12 @@
       type="text/css"
       href="./vendor/revolution/revolution/css/revolution.min.css"
     />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script
+      src="https://kit.fontawesome.com/e5bb96cfeb.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -111,13 +117,13 @@
                     <a href="../services.html">装修服务</a>
                   </li> -->
                   <li>
-                    <a href="javascript:void(0);"
+                    <a href="services.html"
                       >装修项目<i class="fa fa-chevron-down"></i
                     ></a>
                     <ul class="sub-menu">
                       <li><a href="service-basement.html">地下室装修</a></li>
                       <li><a href="service-bathroom.html">卫生间装修</a></li>
-                      <li><a href="service-business.html">商业装修</a></li>
+                      <li><a href="service-business.html">线条项目</a></li>
                       <li><a href="service-tiles.html">瓷砖地砖</a></li>
                       <li><a href="service-windows.html">门窗玻璃</a></li>
                       <li><a href="service-garden.html">户外园艺</a></li>
@@ -805,7 +811,7 @@
           id="specifications"
         >
           <div class="container">
-            <div class="section-head head-col">
+            <div class="section-head head-col" style="display:flex; justify-content: space-between">
               <h2
                 class="title wow fadeInUp"
                 data-wow-duration="2s"
@@ -813,6 +819,9 @@
               >
                 专项展示
               </h2>
+              <a href="portfolio-2.html" class="btn btn-primary btnhover13 fadeIn wow" 
+          >更多案例</a>
+              
               <!-- <p
                 class="wow fadeInUp"
                 data-wow-duration="2s"
@@ -823,6 +832,7 @@
               </p> -->
             </div>
           </div>
+          
           <div class="row faqs-box spno">
             <div class="col-md-8 col-lg-8 col-xl-8">
               <div
@@ -1396,7 +1406,7 @@
             </div>
           </div>
         </section> -->
-        <section id="mainGallery">
+        <!-- <section id="mainGallery">
           <div
             class="main-gallery wow fadeIn"
             data-wow-duration="2s"
@@ -1429,7 +1439,6 @@
                   </div>
                   <div class="info">
                     <h3 class="title">卧室</h3>
-                    <!-- <span><i class="las la-image"></i> 07</span> -->
                   </div>
                 </div>
                 <div class="category-media">
@@ -1475,7 +1484,6 @@
                   </div>
                   <div class="info">
                     <h3 class="title">厨房</h3>
-                    <!-- <span><i class="las la-image"></i> 07</span> -->
                   </div>
                 </div>
                 <div class="category-media">
@@ -1499,7 +1507,6 @@
                   </div>
                   <div class="info">
                     <h3 class="title">楼梯</h3>
-                    <!-- <span><i class="las la-image"></i> 07</span> -->
                   </div>
                 </div>
                 <div class="category-media">
@@ -1517,7 +1524,6 @@
                   </div>
                   <div class="info">
                     <h3 class="title">商业</h3>
-                    <!-- <span><i class="las la-image"></i> 07</span> -->
                   </div>
                 </div>
                 <div class="category-media">
@@ -1531,6 +1537,111 @@
               </div>
             </div>
           </div>
+        </section> -->
+        <section  style="margin:80px auto"  class="content-inner-2"
+        data-content="PORTFORLIOS"
+        id="mainGallery">
+        <div class="container">
+          
+          <h1>案例展示</h1>
+          <br>
+          <br>
+          <div class="index-gallery-grid2" id="lightgallery">
+            <!-- 案例展示#1 -->
+            <a href="./imgs/index/gallery/bed1.jpg"  data-fancybox="gallery" class="index-gallery-item2 img-zoom-wrap">
+              <div class="index-gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+                <img src="./imgs/index/gallery/bed1.jpg" alt="" class="img-zoom">
+              <div class="index-gallery-title">
+                <p>卧室装修</p>
+              </div>
+            </a>
+            <!-- 案例展示#1 结束 -->
+            <!-- 案例展示#2 -->
+            <a href="./imgs/index/gallery/bed2.jpg" class="index-gallery-item2 img-zoom-wrap"  data-fancybox="gallery">
+              <div class="index-gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+                <img src="./imgs/index/gallery/bed2.jpg" alt="" class="img-zoom">
+              <div class="index-gallery-title">
+                <p>卧室装修</p>
+              </div>
+            </a>
+            <!-- 案例展示#2 结束 -->
+            <!-- 案例展示#3 -->
+            <a href="./imgs/index/gallery/business1.jpg" class="index-gallery-item2 img-zoom-wrap" data-fancybox="gallery">
+              <div class="index-gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+                <img src="./imgs/index/gallery/business1.jpg" alt="" class="img-zoom">
+              <div class="index-gallery-title">
+                <p>商业装修</p>
+              </div>
+            </a>
+            <!-- 案例展示#3 结束 -->
+            <!-- 案例展示#4 -->
+            <a href="./imgs/index/gallery/kitchen1.jpg" class="index-gallery-item2 img-zoom-wrap" data-fancybox="gallery">
+              <div class="index-gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+                <img src="./imgs/index/gallery/kitchen1.jpg" alt="" class="img-zoom">
+              <div class="index-gallery-title">
+                <p>厨房</p>
+              </div>
+            </a>
+            <!-- 案例展示#4 结束 -->
+            <!-- 案例展示#5 -->
+            <a href="./imgs/index/gallery/kitchen2.jpg" class="index-gallery-item2 img-zoom-wrap" data-fancybox="gallery">
+              <div class="index-gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+                <img src="./imgs/index/gallery/kitchen2.jpg" alt="" class="img-zoom">
+              <div class="index-gallery-title">
+                <p>厨房装修</p>
+              </div>
+            </a>
+            <!-- 案例展示#5 结束 -->
+            <!-- 案例展示#6 -->
+            <a href="./imgs/index/gallery/living1.jpg" class="index-gallery-item2 img-zoom-wrap" data-fancybox="gallery">
+              <div class="index-gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+                <img src="./imgs/index/gallery/living1.jpg" alt="" class="img-zoom">
+              <liiv class="index-gallery-title">
+                <p>客厅装修</p>
+              </liv>
+            </a>
+            <!-- 案例展示#6 结束 -->
+            <!-- 案例展示#7 -->
+            <a href="./imgs/index/gallery/living2.jpg" class="index-gallery-item2 img-zoom-wrap" data-fancybox="gallery">
+              <div class="index-gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+                <img src="./imgs/index/gallery/living2.jpg" alt="" class="img-zoom">
+              <div class="index-gallery-title">
+                <p>客厅装修</p>
+              </div>
+            </a>
+            <!-- 案例展示#7 结束 -->
+            <!-- 案例展示#8 -->
+            <a href="./imgs/index/gallery/stair1.png" class="index-gallery-item2 img-zoom-wrap" data-fancybox="gallery">
+              <div class="index-gallery-zoom">
+                <i class="fas fa-search-plus"></i>
+              </div>
+                <img src="./imgs/index/gallery/stair1.png" alt="" class="img-zoom">
+              <div class="index-gallery-title">
+                <p>楼梯线条</p>
+              </div>
+            </a>
+            <!-- 案例展示#8 结束 -->
+          </div>
+          
+          <br>
+          <br>
+          <a href="portfolio-2.html" class="btn btn-primary btnhover13 fadeIn wow" 
+        >更多案例</a>
+        </div>
         </section>
         <section
           class="content-inner-2"
@@ -1580,10 +1691,10 @@
               >
                 <div class="service-box">
                   <div class="media">
-                    <img src="imgs/services/whole-house-custom.jpg" alt="" />
+                    <img src="imgs/services/kitchen.jpg" alt="" />
                   </div>
                   <div class="info">
-                    <h4 class="title">全屋定制</h4>
+                    <h4 class="title">厨房翻新</h4>
                   </div>
                 </div>
               </div>
@@ -1608,10 +1719,10 @@
               >
                 <div class="service-box">
                   <div class="media">
-                    <img src="imgs/services/glass-decoration.jpg" alt="" />
+                    <img src="imgs/services/bathroom.jpg" alt="" />
                   </div>
                   <div class="info">
-                    <h4 class="title">玻璃装潢</h4>
+                    <h4 class="title">卫浴翻新</h4>
                   </div>
                 </div>
               </div>
@@ -1672,23 +1783,8 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="col wow bounceInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.8s"
-              >
-                <div class="service-box">
-                  <div class="media">
-                    <img
-                      src="imgs/services/fenced-terrace-decoration.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="info">
-                    <h4 class="title">围栏露台</h4>
-                  </div>
-                </div>
-              </div>
+        
+              
   
               <div
                 class="col wow bounceInUp"
@@ -1704,48 +1800,8 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="col wow bounceInUp"
-                data-wow-duration="2s"
-                data-wow-delay="1s"
-              >
-                <div class="service-box">
-                  <div class="media">
-                    <img src="imgs/services/hydropower-remodel.jpg" alt="" />
-                  </div>
-                  <div class="info">
-                    <h4 class="title">水电改造</h4>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col wow bounceInUp"
-                data-wow-duration="2s"
-                data-wow-delay="1s"
-              >
-                <div class="service-box">
-                  <div class="media">
-                    <img src="imgs/services/housing-additions.jpg" alt="" />
-                  </div>
-                  <div class="info">
-                    <h4 class="title">房屋增建</h4>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col wow bounceInUp"
-                data-wow-duration="2s"
-                data-wow-delay="1s"
-              >
-                <div class="service-box">
-                  <div class="media">
-                    <img src="imgs/services/laying-tile.jpg" alt="" />
-                  </div>
-                  <div class="info">
-                    <h4 class="title">瓷砖铺设</h4>
-                  </div>
-                </div>
-              </div>
+              
+             
               <div
                 class="col wow bounceInUp"
                 data-wow-duration="2s"
@@ -1763,23 +1819,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="col wow bounceInUp"
-                data-wow-duration="2s"
-                data-wow-delay="1s"
-              >
-                <div class="service-box">
-                  <div class="media">
-                    <img
-                      src="imgs/services/professional-roof-decoration.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="info">
-                    <h4 class="title">专业屋顶</h4>
-                  </div>
-                </div>
-              </div>
+              
   
              
             </div>
@@ -2092,6 +2132,7 @@
     <script src="vendor/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="vendor/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="vendor/revolution/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="js/rev.slider.js"></script>
     <script>
       jQuery(document).ready(function () {
