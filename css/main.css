@@ -390,7 +390,7 @@ width: 70px;
   grid-template-columns: repeat(4,1fr);
   gap: 25px;
 }
-@media all and (max-width:1400px){
+@media all and (max-width:1200px){
   .index-gallery-grid2{
     grid-template-columns: repeat(2,1fr);
     gap: 25px;
@@ -398,13 +398,14 @@ width: 70px;
 }
 @media all and (max-width:600px){
   .index-gallery-grid2{
-    grid-template-columns: repeat(1,1fr);
-    gap: 25px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
   }
 }
 .index-gallery-item2{
   position: relative;
   transition: all 0.4s ease;
+  margin-bottom: 10px;
  
 }
 .index-gallery-item2 .index-gallery-zoom{
@@ -426,8 +427,22 @@ width: 70px;
 .index-gallery-item2 img{
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 200px;
   max-height: 200px;
+}
+.index-gallery-fixed-title{
+  overflow: hidden;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  background-color: var(--primary);
+  width: 100%;
+  height: 40px;
+  padding: 5px 15px;
+  color:#fff;
+}
+.index-gallery-fixed-title *{
+  margin: 0;
 }
 .index-gallery-title{
   overflow: hidden;
@@ -439,18 +454,19 @@ width: 70px;
   height: 50px;
   padding: 5px 15px;
 }
+
 .index-gallery-title p{
   margin: 0;
   color:#fff;
   font-size: 16px;
 }
-.index-gallery-item2:hover .index-gallery-title{
+/* .index-gallery-item2:hover .index-gallery-title{
   animation: titleMoveUp 0.5s ease ;
   bottom: 0px;
 }
 .index-gallery-item2:hover .index-gallery-zoom{
   opacity: 0;
-}
+} */
 @keyframes titleMoveUp {
   from{
     bottom: -50px;
@@ -481,4 +497,40 @@ transform: scale3d(1.1,1.1,1);
 cursor: pointer;
 object-fit: cover;
 
+}
+
+/* -------------- Index Gallery Tabs Style -------------- */
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+.ig-filter{
+  display: none;
+}
+.ig-doorwindow{
+  display: flex;
 }

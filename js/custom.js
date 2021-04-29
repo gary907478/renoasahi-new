@@ -539,7 +539,34 @@ var KingArchitect = (function () {
       handleBootstrapSelect()
       equalHeight('.equal-wraper .equal-col')
       //counter();
-      masonryBox()
+      $.ajax({
+        url:
+          'https://renoasahi-cms.herokuapp.com/projects?_sort=created_at:DESC',
+        type: 'GET',
+        success: function (data) {
+          console.log(data)
+          var indexGalleryContainer = $('#masonry')
+          data.forEach((item) => {
+            indexGalleryContainer.append(`
+              <li data-category="${item.categories.cate}" class="card-container col-lg-3 col-md-4 col-sm-6 p-lr0 ${item.categories.cate} wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+              <a href="${item.FeatureImage.url}" data-fancybox="gallery" class="dlab-media dlab-img-overlay1 dlab-img-effect portbox1">
+                <img src="${item.FeatureImage.url}" alt=""/>
+                <div class="overlay-bx">
+                  <div class="portinner">
+                    <h3 class="port-title" style="color:#fff;">${item.ProjectName}</h3>
+                    
+                  </div>
+                </div>
+              </a>
+            </li>
+              `)
+          })
+
+          masonryBox()
+        },
+      })
+
+      // masonryBox()
     },
 
     resize: function () {
