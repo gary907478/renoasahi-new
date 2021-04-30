@@ -13,7 +13,7 @@ $.ajax({
           <div class="portinner">
             <span>July 3, 2016 in Travelling</span>
             <h3 class="port-title"><a href="project-detail-1.html">Design is where science</a></h3>
-            <a href="project-detail-1.html" class="btn btn-primary m-t15">View Project</a>
+            <a href="project-detail-1.html?id=${item._id}" class="btn btn-primary m-t15">View Project</a>
           </div>
         </div>
       </div>

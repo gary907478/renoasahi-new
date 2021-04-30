@@ -1,0 +1,19 @@
+.detail-gallery-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.detail-gallery-item{
+  height: 200px;
+  overflow: hidden;
+}
+.detail-gallery-item img{
+  width: 100%;
+}
+@media all and (max-width:1200px){
+  .detail-gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+}
