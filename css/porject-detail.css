@@ -4,7 +4,7 @@
   gap: 10px;
 }
 .detail-gallery-item{
-  height: 200px;
+  /* height: 200px; */
   overflow: hidden;
 }
 .detail-gallery-item img{
