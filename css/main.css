@@ -284,6 +284,7 @@ align-items: center;
   padding: 10px 20px;
   border: 1px solid var(--primary);
   display: flex;
+  align-items: center;
 }
 #index-about-us li img{
 width: 70px;
@@ -291,6 +292,7 @@ width: 70px;
 #index-about-us li p{
   font-size: 18px;
   margin-left: 15px;
+  margin-bottom: 0;
 }
 @media all and (max-width:1200px) {
   #index-about-us {

@@ -62,7 +62,7 @@
 /* ------------------------------------------------------ */
 #product-detail-wrap{
   display: grid;
-  grid-template-columns: auto ;
+  grid-template-columns: auto 1fr;
   gap: 25px;
   grid-template-areas:
     "slider detail"
@@ -88,6 +88,7 @@
 .swiper-container {
   width:  600px;
   height: 400px;
+  margin-left: 0;
 }
 
 .swiper-slide {
@@ -150,7 +151,7 @@
   .swiper-container {
     width: 600px;
     height: 400px;
-  
+  margin-left: auto;
   }
 }
 @media all and (max-width:600px) {
