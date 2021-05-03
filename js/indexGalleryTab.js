@@ -1,7 +1,3 @@
-let galleryPageUrl =
-  'https://renoasahi-cms.herokuapp.com/projects?_sort=created_at:DESC'
-console.log(galleryPageUrl)
-
 $.ajax({
   url: 'https://renoasahi-cms.herokuapp.com/projects?_sort=created_at:DESC',
   type: 'GET',
@@ -14,7 +10,7 @@ $.ajax({
       data-category="${item.categories.cate}"
       class="index-gallery-item2 filtermark"
             data-wow-delay="0.2s" data-wow-duration="2s">
-            <a href="${item.FeatureImage.url}" data-fancybox="gallery"
+            <a href="portfolio-detail.html?id=${item._id}"
               class="index-gallery-item2 img-zoom-wrap ig-filter ig-doorwindow">
               <div class="index-gallery-zoom">
                 <i class="fas fa-search-plus"></i>

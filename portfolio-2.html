@@ -26,6 +26,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
     />
+    <script
+      src="https://kit.fontawesome.com/e5bb96cfeb.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/main.css" />
@@ -101,9 +105,9 @@
                   <li class="active">
                     <a href="commercial.html">商业装修</a>
                   </li>
-                  <!-- <li class="active">
+                  <li class="active">
                     <a href="products.html">商品</a>
-                  </li> -->
+                  </li>
                   <li>
                     <a href="services.html"
                       >装修项目<i class="fa fa-chevron-down"></i
@@ -194,46 +198,55 @@
             </div>
             <div class="row">
               <div class="col-lg-12 text-center">
-                <div class="site-filters filter-style1 clearfix m-b20">
+                <div class="site-filters filter-style1 m-b20">
                   <ul class="filters" data-toggle="buttons">
-                    <li data-filter="" class="btn active">
-                      <input type="radio" /><a href="#"><span>全部</span></a>
+                    <li class="btn active" onclick="openTab('All')">
+                      <input type="radio" /><a href="javascript:void(0);"
+                        ><span>全部</span></a
+                      >
                     </li>
-
-                    <li data-filter="Stair" class="btn">
-                      <input type="radio" /><a href="#"><span>楼梯</span></a>
+                    <li class="btn" onclick="openTab('Bathroom')">
+                      <input type="radio" /><a href="javascript:void(0);"
+                        ><span>卫浴</span></a
+                      >
                     </li>
-                    <li data-filter="Basement" class="btn">
-                      <input type="radio" /><a href="#"><span>地下室</span></a>
+                    <li class="btn" onclick="openTab('Stair')">
+                      <input type="radio" /><a href="javascript:void(0);"
+                        ><span>楼梯</span></a
+                      >
                     </li>
-                    <li data-filter="Bathroom" class="btn">
-                      <input type="radio" /><a href="#"><span>卫浴</span></a>
+                    <li class="btn" onclick="openTab('Basement')">
+                      <input type="radio" /><a href="javascript:void(0);"
+                        ><span>地下室</span></a
+                      >
                     </li>
-                    <li data-filter="Indoor Rebuild" class="btn">
-                      <input type="radio" /><a href="#"
+                    <li class="btn" onclick="openTab('Indoor Rebuild')">
+                      <input type="radio" /><a href="javascript:void(0);"
                         ><span>室内翻新</span></a
                       >
                     </li>
-                    <li data-filter="Rebuild" class="btn">
-                      <input type="radio" /><a href="#"
+                    <li class="btn" onclick="openTab('Rebuild')">
+                      <input type="radio" /><a href="javascript:void(0);"
                         ><span>新房重建</span></a
                       >
                     </li>
-                    <li data-filter="Garden" class="btn">
-                      <input type="radio" /><a href="#"
+                    <li class="btn" onclick="openTab('Garden')">
+                      <input type="radio" /><a href="javascript:void(0);"
                         ><span>园艺铺砖</span></a
                       >
                     </li>
-                    <li data-filter="Commercial" class="btn">
-                      <input type="radio" /><a href="#"
+                    <li class="btn" onclick="openTab('Commercial')">
+                      <input type="radio" /><a href="javascript:void(0);"
                         ><span>商业装修</span></a
                       >
                     </li>
-                    <li data-filter="Kitchen" class="btn">
-                      <input type="radio" /><a href="#"><span>厨房</span></a>
+                    <li class="btn" onclick="openTab('Kitchen')">
+                      <input type="radio" /><a href="javascript:void(0);"
+                        ><span>厨房</span></a
+                      >
                     </li>
-                    <li data-filter="Door Window" class="btn">
-                      <input type="radio" /><a href="#"
+                    <li class="btn" onclick="openTab('Door Window')">
+                      <input type="radio" /><a href="javascript:void(0);"
                         ><span>门窗窗帘</span></a
                       >
                     </li>
@@ -242,10 +255,10 @@
               </div>
             </div>
           </div>
-          <div class="clearfix" id="lightgallery">
+          <div class="clearfix container" id="lightgallery">
             <ul
               id="masonry"
-              class="gallery mfp-gallery text-center portfolio-bx p-l0"
+              class="dlab-gallery-listing gallery mfp-gallery text-center row lightgallery index-gallery-grid2"
             ></ul>
           </div>
         </section>
@@ -395,7 +408,7 @@
     <!-- OWL-CAROUSEL -->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="js/custom.js"></script>
-    <!-- <script src="js/galleryPage.js"></script> -->
+    <script src="js/galleryPage.js"></script>
     <!-- CUSTOM JS -->
     <!-- MAIN JS -->
     <script
