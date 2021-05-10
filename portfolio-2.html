@@ -26,6 +26,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
     />
+    <link rel="stylesheet" href="./css/simplePagination.css" />
     <script
       src="https://kit.fontawesome.com/e5bb96cfeb.js"
       crossorigin="anonymous"
@@ -93,7 +94,7 @@
                 id="navbarNavDropdown"
               >
                 <div class="logo-header d-md-block d-lg-none">
-                  <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                  <a href="index.html"><img src="imgs/logo.png" alt="" /></a>
                 </div>
                 <ul class="nav navbar-nav navbar">
                   <li class="active">
@@ -196,6 +197,7 @@
               <!-- <p>VIEW PORTFOLLO</p> -->
               <h2 class="title m-b10">项目展示</h2>
             </div>
+
             <div class="row">
               <div class="col-lg-12 text-center">
                 <div class="site-filters filter-style1 m-b20">
@@ -260,6 +262,17 @@
               id="masonry"
               class="dlab-gallery-listing gallery mfp-gallery text-center row lightgallery index-gallery-grid2"
             ></ul>
+          </div>
+          <div
+            class="pagi-wrap"
+            style="
+              display: flex;
+              justify-content: center;
+              margin-top: 50px;
+              margin-bottom: 50px;
+            "
+          >
+            <div id="pagination-container"></div>
           </div>
         </section>
       </div>
@@ -409,6 +422,9 @@
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/galleryPage.js"></script>
+    <script src="js/jquery.simplePagination.js"></script>
+    <script src="js/pagination.js"></script>
+
     <!-- CUSTOM JS -->
     <!-- MAIN JS -->
     <script
